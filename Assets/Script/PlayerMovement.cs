@@ -424,6 +424,17 @@ public class PlayerMovement : MonoBehaviour
 		Gizmos.DrawWireCube(_backWallCheckPoint.position, _wallCheckSize);
 	}
     #endregion
+
+		private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+			Debug.Log("azerty");
+        }
+    }
+
+
 }
+
 
 // created by Dawnosaur :D
