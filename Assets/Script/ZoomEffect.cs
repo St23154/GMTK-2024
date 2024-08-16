@@ -47,12 +47,9 @@ public class ShrinkAnimation : MonoBehaviour
 
     public void Mini()
     {
-        if (mini == true)
-        {
+        if (mini == true){
             Debug.Log("tu est déjà mini");
-        }
-        else
-        {
+        }else{
             mini = true;
             targetPos = new Vector3(transform.position.x, transform.position.y - posDown, transform.position.z);
             myCameraAnimator.SetTrigger("Zoom");
@@ -62,12 +59,9 @@ public class ShrinkAnimation : MonoBehaviour
 
     public void Grand()
     {
-        if (mini == false)
-        {
+        if (mini == false){
             Debug.Log("tu est déjà grand");
-        }
-        else
-        {
+        }else{
             mini = false;
             targetPos = new Vector3(transform.position.x, transform.position.y + posDown, transform.position.z);
             myCameraAnimator.SetTrigger("UnZoom");
