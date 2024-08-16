@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 426104936}
   - component: {fileID: 426104935}
   - component: {fileID: 426104934}
+  - component: {fileID: 426104937}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -342,12 +343,33 @@ Transform:
   m_GameObject: {fileID: 426104933}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1962415810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &426104937
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426104933}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cdf893ce5cd259948acda100d0e4f4e9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &717346827
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,7 +975,8 @@ Transform:
   m_LocalPosition: {x: -2.532, y: -1.965, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 426104936}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1962415811
@@ -966,7 +989,7 @@ Animator:
   m_GameObject: {fileID: 1962415808}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c49aad745a1133745a19c490e62e9c1e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1c1e5df63be491949b178d87ddb7f0ce, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -991,8 +1014,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mini: 0
   speed: 2
-  posDown: 1
-  targetScale: {x: 0.001, y: 0.001, z: 0.001}
+  posDown: 0.985
+  myCameraAnimator: {fileID: 426104937}
+  targetScale: {x: 0.01, y: 0.01, z: 0.01}
 --- !u!1 &1983034890
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,6 +1156,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 884283172}
   - {fileID: 1962415810}
-  - {fileID: 426104936}
   - {fileID: 1824537479}
   - {fileID: 717346831}
