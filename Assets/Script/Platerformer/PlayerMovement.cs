@@ -95,6 +95,7 @@ public class Playermovement : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             reloadScene();
+            Die();
         }
     }
 
