@@ -14,6 +14,7 @@ public class SIMPLE_PLayermovement : MonoBehaviour
     private bool canMove = true;
 
     private ZoomEffect zoom;
+    private Animator myAnimator;
 
 
     [SerializeField] private Rigidbody2D rb;
@@ -24,8 +25,9 @@ public class SIMPLE_PLayermovement : MonoBehaviour
     void Start()
     {
         zoom = GetComponent<ZoomEffect>();
-       realSpeed = speed; 
-       realJumpingPower = jumpingPower;
+        myAnimator = GetComponent<Animator>();
+        realSpeed = speed; 
+        realJumpingPower = jumpingPower;
     }
 
     void Update()
@@ -62,6 +64,13 @@ public class SIMPLE_PLayermovement : MonoBehaviour
                 realSpeed = speed;
             }
             rb.velocity = new Vector2(horizontal * realSpeed, rb.velocity.y);
+            if(horizontal != 0){
+                myAnimator.SetBool("IsMoving", true);
+            }else{
+                myAnimator.SetBool("IsMoving", false);
+            }
+        }else{
+            myAnimator.SetBool("IsMoving", false);
         }
     }
 
@@ -72,14 +81,14 @@ public class SIMPLE_PLayermovement : MonoBehaviour
 
     private void Flip()
     {
-        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
+        if ((isFacingRight && horizontal < 0f) || (!isFacingRight && horizontal > 0f))
         {
             isFacingRight = !isFacingRight;
-            Vector3 localScale = transform.localScale;
-            localScale.x *= -1f;
-            transform.localScale = localScale;
+            transform.Rotate(0f, 180f, 0f);
         }
     }
+
+
 
     private void OnCollisionEnter2D(Collision2D other)
     {
