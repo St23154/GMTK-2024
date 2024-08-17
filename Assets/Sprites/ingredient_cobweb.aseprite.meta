@@ -1,0 +1,1531 @@
+fileFormatVersion: 2
+guid: 491bf212be1f1b7fabd257c7363f3c3b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: ingredient_cobweb_Frame_0
+    originalName: 
+    pivot: {x: 0.51724136, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 40
+      width: 29
+      height: 26
+    spriteID: 6c31e777bdd6f72579ae200729cc3d49
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 40}
+  - name: ingredient_cobweb_Frame_1
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 432
+      width: 30
+      height: 28
+    spriteID: ded14b315fbbc0ab1baaf3dd85a5287d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 432}
+  - name: ingredient_cobweb_Frame_2
+    originalName: 
+    pivot: {x: 0.516129, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 229
+      width: 31
+      height: 28
+    spriteID: 03e6a646b52a66bb4a9f82b93802dbe5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 229}
+  - name: ingredient_cobweb_Frame_3
+    originalName: 
+    pivot: {x: 0.516129, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 118
+      width: 31
+      height: 29
+    spriteID: a8ed199699ddb67e989f65b385f785c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 118}
+  - name: ingredient_cobweb_Frame_4
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 121
+      width: 30
+      height: 30
+    spriteID: 7d58adb602a14e2d48b22fe5d7d3f111
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 121}
+  - name: ingredient_cobweb_Frame_5
+    originalName: 
+    pivot: {x: 0.4814815, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 445
+      width: 27
+      height: 32
+    spriteID: 4b6f45ea44cc39c599464f39f4758eb7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 445}
+  - name: ingredient_cobweb_Frame_6
+    originalName: 
+    pivot: {x: 0.52, y: -0.032258064}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 316
+      width: 25
+      height: 31
+    spriteID: 0dfe002783cf330bb8693d0817bf8b9b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 316}
+  - name: ingredient_cobweb_Frame_7
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.10344827}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 74
+      width: 26
+      height: 29
+    spriteID: 9fdf3bccb6a0e43e78bb13ff324bc218
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 74}
+  - name: ingredient_cobweb_Frame_8
+    originalName: 
+    pivot: {x: 0.4827586, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 235
+      width: 29
+      height: 31
+    spriteID: acdc322d7b89da1468cf0333f2bd957d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 235}
+  - name: ingredient_cobweb_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 30
+      height: 31
+    spriteID: 39118db1f7a5d9636a64ff28575766b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: ingredient_cobweb_Frame_10
+    originalName: 
+    pivot: {x: 0.516129, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 265
+      width: 31
+      height: 28
+    spriteID: 30bb9e043cf5b7c9c90f9c4edacfcac4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 265}
+  - name: ingredient_cobweb_Frame_11
+    originalName: 
+    pivot: {x: 0.516129, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 214
+      width: 31
+      height: 26
+    spriteID: 89760914e2da3570880f5bca7e837d78
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 214}
+  - name: ingredient_cobweb_Frame_12
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 355
+      width: 31
+      height: 25
+    spriteID: 22329b5466cc91fddb05d2cdf1b5302e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 355}
+  - name: ingredient_cobweb_Frame_13
+    originalName: 
+    pivot: {x: 0.516129, y: -0.074074075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 4
+      width: 31
+      height: 27
+    spriteID: e44df2e611f544f7cb64c59cba72f713
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 4}
+  - name: ingredient_cobweb_Frame_14
+    originalName: 
+    pivot: {x: 0.516129, y: -0.074074075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 39
+      width: 31
+      height: 27
+    spriteID: e6802e12497630c7e83a54752b49fcf9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 39}
+  - name: ingredient_cobweb_Frame_15
+    originalName: 
+    pivot: {x: 0.516129, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 4
+      width: 31
+      height: 30
+    spriteID: d5e5f5ea5c3b709c8b02423ba685da05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 4}
+  - name: ingredient_cobweb_Frame_16
+    originalName: 
+    pivot: {x: 0.51724136, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 111
+      width: 29
+      height: 26
+    spriteID: 4994454004b4930ff949a826c2efed85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 111}
+  - name: ingredient_cobweb_Frame_17
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 468
+      width: 30
+      height: 28
+    spriteID: a44006efd833934c9bd6522ff82c5ad5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 468}
+  - name: ingredient_cobweb_Frame_18
+    originalName: 
+    pivot: {x: 0.516129, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 301
+      width: 31
+      height: 28
+    spriteID: 52fd913a09531beaa9bc6277b4ec4e40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 301}
+  - name: ingredient_cobweb_Frame_19
+    originalName: 
+    pivot: {x: 0.516129, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 155
+      width: 31
+      height: 29
+    spriteID: 509d9696d0c735e4684186f06751cdd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 155}
+  - name: ingredient_cobweb_Frame_20
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 159
+      width: 30
+      height: 30
+    spriteID: 9304a5a0b66ec3fdea319b09a23d30d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 159}
+  - name: ingredient_cobweb_Frame_21
+    originalName: 
+    pivot: {x: 0.4814815, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 352
+      width: 27
+      height: 32
+    spriteID: b3b00858e5aa7bdb5a8f9c5e57df016a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 352}
+  - name: ingredient_cobweb_Frame_22
+    originalName: 
+    pivot: {x: 0.52, y: -0.032258064}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 388
+      width: 25
+      height: 31
+    spriteID: f53ec43223859a322b6890983f933d8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 388}
+  - name: ingredient_cobweb_Frame_23
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.10344827}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 145
+      width: 26
+      height: 29
+    spriteID: da161ccefccd0c58394eb3046c156117
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 145}
+  - name: ingredient_cobweb_Frame_24
+    originalName: 
+    pivot: {x: 0.4827586, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 274
+      width: 29
+      height: 31
+    spriteID: 04a9d369cea089510bb681a845383494
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 274}
+  - name: ingredient_cobweb_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 43
+      width: 30
+      height: 31
+    spriteID: 6aff6d33a5c5cc6e89ee0cfa7518ccaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 43}
+  - name: ingredient_cobweb_Frame_26
+    originalName: 
+    pivot: {x: 0.516129, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 337
+      width: 31
+      height: 28
+    spriteID: 76a736e7d77d9caf29057d256e5af8cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 337}
+  - name: ingredient_cobweb_Frame_27
+    originalName: 
+    pivot: {x: 0.516129, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 248
+      width: 31
+      height: 26
+    spriteID: 25e4a59ab361c9d1a948525fd4fa4344
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 248}
+  - name: ingredient_cobweb_Frame_28
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 427
+      width: 31
+      height: 25
+    spriteID: 741576f3e55b7b2c688ff6b112270caf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 427}
+  - name: ingredient_cobweb_Frame_29
+    originalName: 
+    pivot: {x: 0.516129, y: -0.074074075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 74
+      width: 31
+      height: 27
+    spriteID: 759e82ff9aeaa408eafd784e568ef2d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 74}
+  - name: ingredient_cobweb_Frame_30
+    originalName: 
+    pivot: {x: 0.516129, y: -0.074074075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 109
+      width: 31
+      height: 27
+    spriteID: 6c8d5f5a7351f1075becfbaa7c771b8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 109}
+  - name: ingredient_cobweb_Frame_31
+    originalName: 
+    pivot: {x: 0.516129, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 42
+      width: 31
+      height: 30
+    spriteID: ff5b983c416b7bb41b71d2f1c54516c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 42}
+  - name: ingredient_cobweb_Frame_32
+    originalName: 
+    pivot: {x: 0.51724136, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 182
+      width: 29
+      height: 26
+    spriteID: 26439c2d93f383420903bd3538d4e450
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 182}
+  - name: ingredient_cobweb_Frame_33
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 4
+      width: 30
+      height: 28
+    spriteID: c630fbe95762b9b76a2ca41f95baf168
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 4}
+  - name: ingredient_cobweb_Frame_34
+    originalName: 
+    pivot: {x: 0.516129, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 373
+      width: 31
+      height: 28
+    spriteID: 59c7dd0e57647d24bb3ef25e4e9d11e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 373}
+  - name: ingredient_cobweb_Frame_35
+    originalName: 
+    pivot: {x: 0.516129, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 192
+      width: 31
+      height: 29
+    spriteID: 7672325985f3f3d6fbd3197f0540f57e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 192}
+  - name: ingredient_cobweb_Frame_36
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 197
+      width: 30
+      height: 30
+    spriteID: 3cf1bcb6d182a9ff49e889183776afe9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 197}
+  - name: ingredient_cobweb_Frame_37
+    originalName: 
+    pivot: {x: 0.4814815, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 392
+      width: 27
+      height: 32
+    spriteID: 8664cfdaa094803819b91a6c98dbd2b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 392}
+  - name: ingredient_cobweb_Frame_38
+    originalName: 
+    pivot: {x: 0.52, y: -0.032258064}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 460
+      width: 25
+      height: 31
+    spriteID: 2856da4c4042c2503a8499fcce56eb92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 460}
+  - name: ingredient_cobweb_Frame_39
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.10344827}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 216
+      width: 26
+      height: 29
+    spriteID: c2490968efc88f2e29a1727ef929c6d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 216}
+  - name: ingredient_cobweb_Frame_40
+    originalName: 
+    pivot: {x: 0.4827586, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 313
+      width: 29
+      height: 31
+    spriteID: ae05f5f3384b6e917aecac6cb844b6f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 313}
+  - name: ingredient_cobweb_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 82
+      width: 30
+      height: 31
+    spriteID: c8f867a5dea68167fbd2736ee226db32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 82}
+  - name: ingredient_cobweb_Frame_42
+    originalName: 
+    pivot: {x: 0.516129, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 409
+      width: 31
+      height: 28
+    spriteID: a33895dce77d3a8708150a7280be4cfe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 409}
+  - name: ingredient_cobweb_Frame_43
+    originalName: 
+    pivot: {x: 0.516129, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 282
+      width: 31
+      height: 26
+    spriteID: 995e58ee017cbf88e99a0fda38b84a56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 282}
+  - name: ingredient_cobweb_Frame_44
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 4
+      width: 31
+      height: 25
+    spriteID: 3830cc4ad439952f1886dcad888147b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 4}
+  - name: ingredient_cobweb_Frame_45
+    originalName: 
+    pivot: {x: 0.516129, y: -0.074074075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 144
+      width: 31
+      height: 27
+    spriteID: e70c06f5423fd9166b417a0d276ec2be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 144}
+  - name: ingredient_cobweb_Frame_46
+    originalName: 
+    pivot: {x: 0.516129, y: -0.074074075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 179
+      width: 31
+      height: 27
+    spriteID: 958a612bce96c9c3da8c674d7ebb5e85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 179}
+  - name: ingredient_cobweb_Frame_47
+    originalName: 
+    pivot: {x: 0.516129, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 80
+      width: 31
+      height: 30
+    spriteID: 2c486bf51d55ab08b80dde2e23572a79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 80}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1563058684
+    name: ingredient_cobweb
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: ingredient_cobweb_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 2
+        width: 29
+        height: 26
+      spriteId: 6c31e777bdd6f72579ae200729cc3d49
+    - name: ingredient_cobweb_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 30
+        height: 28
+      spriteId: ded14b315fbbc0ab1baaf3dd85a5287d
+    - name: ingredient_cobweb_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 28
+      spriteId: 03e6a646b52a66bb4a9f82b93802dbe5
+    - name: ingredient_cobweb_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 29
+      spriteId: a8ed199699ddb67e989f65b385f785c8
+    - name: ingredient_cobweb_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 30
+        height: 30
+      spriteId: 7d58adb602a14e2d48b22fe5d7d3f111
+    - name: ingredient_cobweb_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 0
+        width: 27
+        height: 32
+      spriteId: 4b6f45ea44cc39c599464f39f4758eb7
+    - name: ingredient_cobweb_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 1
+        width: 25
+        height: 31
+      spriteId: 0dfe002783cf330bb8693d0817bf8b9b
+    - name: ingredient_cobweb_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: 3
+        width: 26
+        height: 29
+      spriteId: 9fdf3bccb6a0e43e78bb13ff324bc218
+    - name: ingredient_cobweb_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: 0
+        width: 29
+        height: 31
+      spriteId: acdc322d7b89da1468cf0333f2bd957d
+    - name: ingredient_cobweb_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 0
+        width: 30
+        height: 31
+      spriteId: 39118db1f7a5d9636a64ff28575766b9
+    - name: ingredient_cobweb_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 28
+      spriteId: 30bb9e043cf5b7c9c90f9c4edacfcac4
+    - name: ingredient_cobweb_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 1
+        width: 31
+        height: 26
+      spriteId: 89760914e2da3570880f5bca7e837d78
+    - name: ingredient_cobweb_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 3
+        width: 31
+        height: 25
+      spriteId: 22329b5466cc91fddb05d2cdf1b5302e
+    - name: ingredient_cobweb_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 27
+      spriteId: e44df2e611f544f7cb64c59cba72f713
+    - name: ingredient_cobweb_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 27
+      spriteId: e6802e12497630c7e83a54752b49fcf9
+    - name: ingredient_cobweb_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 1
+        width: 31
+        height: 30
+      spriteId: d5e5f5ea5c3b709c8b02423ba685da05
+    - name: ingredient_cobweb_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 2
+        width: 29
+        height: 26
+      spriteId: 4994454004b4930ff949a826c2efed85
+    - name: ingredient_cobweb_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 30
+        height: 28
+      spriteId: a44006efd833934c9bd6522ff82c5ad5
+    - name: ingredient_cobweb_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 28
+      spriteId: 52fd913a09531beaa9bc6277b4ec4e40
+    - name: ingredient_cobweb_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 29
+      spriteId: 509d9696d0c735e4684186f06751cdd2
+    - name: ingredient_cobweb_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 30
+        height: 30
+      spriteId: 9304a5a0b66ec3fdea319b09a23d30d5
+    - name: ingredient_cobweb_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 0
+        width: 27
+        height: 32
+      spriteId: b3b00858e5aa7bdb5a8f9c5e57df016a
+    - name: ingredient_cobweb_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 1
+        width: 25
+        height: 31
+      spriteId: f53ec43223859a322b6890983f933d8a
+    - name: ingredient_cobweb_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: 3
+        width: 26
+        height: 29
+      spriteId: da161ccefccd0c58394eb3046c156117
+    - name: ingredient_cobweb_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: 0
+        width: 29
+        height: 31
+      spriteId: 04a9d369cea089510bb681a845383494
+    - name: ingredient_cobweb_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 0
+        width: 30
+        height: 31
+      spriteId: 6aff6d33a5c5cc6e89ee0cfa7518ccaf
+    - name: ingredient_cobweb_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 28
+      spriteId: 76a736e7d77d9caf29057d256e5af8cc
+    - name: ingredient_cobweb_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 1
+        width: 31
+        height: 26
+      spriteId: 25e4a59ab361c9d1a948525fd4fa4344
+    - name: ingredient_cobweb_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 3
+        width: 31
+        height: 25
+      spriteId: 741576f3e55b7b2c688ff6b112270caf
+    - name: ingredient_cobweb_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 27
+      spriteId: 759e82ff9aeaa408eafd784e568ef2d1
+    - name: ingredient_cobweb_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 27
+      spriteId: 6c8d5f5a7351f1075becfbaa7c771b8c
+    - name: ingredient_cobweb_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 1
+        width: 31
+        height: 30
+      spriteId: ff5b983c416b7bb41b71d2f1c54516c5
+    - name: ingredient_cobweb_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 2
+        width: 29
+        height: 26
+      spriteId: 26439c2d93f383420903bd3538d4e450
+    - name: ingredient_cobweb_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 30
+        height: 28
+      spriteId: c630fbe95762b9b76a2ca41f95baf168
+    - name: ingredient_cobweb_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 28
+      spriteId: 59c7dd0e57647d24bb3ef25e4e9d11e9
+    - name: ingredient_cobweb_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 29
+      spriteId: 7672325985f3f3d6fbd3197f0540f57e
+    - name: ingredient_cobweb_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 30
+        height: 30
+      spriteId: 3cf1bcb6d182a9ff49e889183776afe9
+    - name: ingredient_cobweb_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 0
+        width: 27
+        height: 32
+      spriteId: 8664cfdaa094803819b91a6c98dbd2b8
+    - name: ingredient_cobweb_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 1
+        width: 25
+        height: 31
+      spriteId: 2856da4c4042c2503a8499fcce56eb92
+    - name: ingredient_cobweb_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: 3
+        width: 26
+        height: 29
+      spriteId: c2490968efc88f2e29a1727ef929c6d3
+    - name: ingredient_cobweb_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: 0
+        width: 29
+        height: 31
+      spriteId: ae05f5f3384b6e917aecac6cb844b6f9
+    - name: ingredient_cobweb_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 0
+        width: 30
+        height: 31
+      spriteId: c8f867a5dea68167fbd2736ee226db32
+    - name: ingredient_cobweb_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 28
+      spriteId: a33895dce77d3a8708150a7280be4cfe
+    - name: ingredient_cobweb_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 1
+        width: 31
+        height: 26
+      spriteId: 995e58ee017cbf88e99a0fda38b84a56
+    - name: ingredient_cobweb_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 3
+        width: 31
+        height: 25
+      spriteId: 3830cc4ad439952f1886dcad888147b9
+    - name: ingredient_cobweb_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 27
+      spriteId: e70c06f5423fd9166b417a0d276ec2be
+    - name: ingredient_cobweb_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 27
+      spriteId: 958a612bce96c9c3da8c674d7ebb5e85
+    - name: ingredient_cobweb_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 1
+        width: 31
+        height: 30
+      spriteId: 2c486bf51d55ab08b80dde2e23572a79
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}
