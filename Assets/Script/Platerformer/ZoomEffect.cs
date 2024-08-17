@@ -33,7 +33,6 @@ public class ZoomEffect : MonoBehaviour
             }
 
             else{
-               Debug.Log("errtt");
                StartCoroutine(destroyParticles());
             }
         }
