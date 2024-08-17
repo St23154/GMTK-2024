@@ -1,0 +1,5077 @@
+fileFormatVersion: 2
+guid: 222de64a57684cd4c871b41023ab108d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sewer_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77de4f990cc43df45807f5f898c5d660
+      internalID: 1779277515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 460
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6980f5ca4546d8e4d9dc6ecdcd872958
+      internalID: 2025083151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 460
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac7582c93ba61645998018698d11436
+      internalID: -1079232128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 460
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f872fec5638961b48bc3f8e9af467401
+      internalID: 1203644623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 460
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6058e29c953994192d22a9f359868a
+      internalID: -1374119371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 460
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bf90c8ebd1c3943ae280f7d3604450
+      internalID: -1918451582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 460
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c00fb8aba43f494396d36d85530317e
+      internalID: 1921963304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 460
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458b005682c782044b8ed4ffafaceaec
+      internalID: -2143205934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 460
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b0fc7b49659da4bbdb4fb3f6b137ff
+      internalID: 295403805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 460
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf6b25fbe9921842950fdb29d401df4
+      internalID: -2094875657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 460
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b69185c58397314eb5f9e343be37ad6
+      internalID: 1572908059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 460
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211097aa387153f40af472aa5f39a46a
+      internalID: 1586304132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 460
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e9dccaa0427924d8aa4b71732c805a
+      internalID: 1309014334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 460
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da62ec43a77f4a4eba2fd65acfa1363
+      internalID: -504065915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe1f4106aca4db4cbe3844891d3c2ac
+      internalID: -1531541858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 440
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c374465d82690449614a8c761a1785
+      internalID: 1325662352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 440
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ade1ddd05a8b44693d540e65dadb0a
+      internalID: -1620545872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 440
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c31ee173f13c348b21ce6c1818179d
+      internalID: -1194156059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 440
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef5fe857309bfe42b665aaccbe682eb
+      internalID: -717419266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_19
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 440
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1074225a15e9b4ab30851265128672
+      internalID: 64301279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_20
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 440
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c641a739357c94597789f624efd841
+      internalID: 388391249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_21
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 440
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa299f87c9349d440933c1e1a52d1870
+      internalID: -1429320348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 440
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c71f2a8c32090e4a9f919a7d7f8b583
+      internalID: 148545626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 440
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4985fbfc92c0625409c72ce7673807bf
+      internalID: -641391885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_24
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 440
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b667572687c75994fa5d20c6dd82ef93
+      internalID: 320945257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_25
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 440
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c90f3f0b007da429557b3faf2ce619
+      internalID: -327337783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_26
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 440
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7de9b1c41c7e644a6d0b81f37cc8fc
+      internalID: 1622037791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_27
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 440
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de92eba07fd468443b46d3e5a0ba78e7
+      internalID: -1031955109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99971b7b264c5dc44b16c29b17fc543a
+      internalID: -645247118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_29
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 420
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09364f7a7f95d3469aaec609b46c770
+      internalID: -1793192594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_30
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 420
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c8282d28cab4649bc7db22bd63f080
+      internalID: -882176296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_31
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 420
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2680a98359cbb442bb3fc39692cb655
+      internalID: -1156656778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 420
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f3d863d03051d46b4c953abfca3259
+      internalID: 1437515261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 420
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53e9475ceacbe143ac0c90d0f9e797c
+      internalID: -388863235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_34
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 420
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7300139ffb92f2d45ae6c0b865e7ee68
+      internalID: 1647234331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_35
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 420
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48574bbb39bf2e045a85965e3e6b81d0
+      internalID: 1108341925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 420
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63da025ed25e6dd49b05d8450e49a7bc
+      internalID: -1901272042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_37
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 420
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b04c003bab1c7840b07bb9a55029e25
+      internalID: -1403269640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_38
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 420
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da9fc511fb27c745b4e7b59630e48cf
+      internalID: -502368306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_39
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 420
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c47def9c04f004f82a1a886b1969ca
+      internalID: -581573591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_40
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 420
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757f79b3ef3cba944aabfb24aa55d2e5
+      internalID: 2015811483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd522f4952c29134c9ec07578d0e4a47
+      internalID: -85765272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 400
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f902a81969e2ee2418fa040bf932c942
+      internalID: -385109793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_43
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 400
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae85773492c65044806ecd3756534fe
+      internalID: 1721703458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_44
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 400
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f4a6dcd3357f84b935f50a67d651cb
+      internalID: -1693550522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ddedd751cf6214ba6bd72db8024524
+      internalID: 198871257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_46
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 400
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83259ffd4d162549972308a86b63546
+      internalID: 485624378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_47
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 400
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ccf5412f43d6e45a3df05dabaef4d2
+      internalID: 2107176626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_48
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 400
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d14387d1d109b4980d602aa9b47fce
+      internalID: -1825027753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267edc17d77960c4e9353faecf6f7caf
+      internalID: 1783089277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_50
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 400
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f56e6486e5d2e4986b940557727031
+      internalID: 1654973406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_51
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e049fb64f3fcd428919658d4fe1ca1
+      internalID: 767236388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_52
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 400
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e830434812c57d4db21a6a264235502
+      internalID: -887528972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b4fcd7379ad8246bf0835bb46bc41a
+      internalID: 1387551449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_54
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 380
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69172a98de84c5409b987e8eec350bd
+      internalID: -1935036089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_55
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 380
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bd92044ddd46e4e8f670da93077884
+      internalID: -401938778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_56
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 380
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc60c4e833c2be349864eba692491b4e
+      internalID: 1408366860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 380
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f858e4c958a40b84a8ba9afc2000da75
+      internalID: 1595335990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_58
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 380
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24005d110d8e5d643850569767b6ff05
+      internalID: -1316104581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_59
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 380
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587fa5cc4bd788d40981b47d9e9567d4
+      internalID: 1692883076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_60
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 380
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7f2a006a075a2498002c5ced69063b
+      internalID: 545494196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 380
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f47c83202b4b1b44a697977d41b91ef
+      internalID: 777246120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_62
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 380
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a8fb06253620f49b6e1d031ed906f4
+      internalID: -975058095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a53abc4e06f84e4c87b08dccf9bc019
+      internalID: 77113637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_64
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f2ba761f3a94b4394e49ac154943dc
+      internalID: -832790780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_65
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d602f699b669f0c4188a2baf1a0d91e7
+      internalID: -1679144930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_66
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1e02958d9f34a498dd5c0deafd4022
+      internalID: -1152110874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_67
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e954f78f585cc734dacb364dd8168824
+      internalID: -2055406193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_68
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e4a5cd56a648f4e9daa475418fc1ba
+      internalID: 1011575510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_69
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c8b934208617a448879c5367d11f9c
+      internalID: -1004979117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_70
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f600c147737c99149b5dfa7db0d0ea7f
+      internalID: -830289646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_71
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a8e19881fdd9a4ea9a3ef91503aac1
+      internalID: 639529101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_72
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3642198c613628a49b6176b9798b10e2
+      internalID: -743136381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_73
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeca2a858c9d10341815dade9b917f73
+      internalID: 1880663074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b7867a167587447836591c20258e72
+      internalID: 783262347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_75
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 340
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb93af862c767e54292bea251b1dcdbb
+      internalID: 89253822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_76
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 340
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9751d1726cd813c49be49773b2baf9e7
+      internalID: 592724749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_77
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 340
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f301f5cdf4f9d8b43b606430e7f3437e
+      internalID: 499804557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_78
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 340
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c41720daad33a43931f5970709800c
+      internalID: 1627580016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_79
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 340
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa49f1782333ad4696ceb400075c70a
+      internalID: -484825560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_80
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 340
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71e38b7c25769243afdfd77c847486a
+      internalID: -1693027162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_81
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 340
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fb0be0dad30a14e84d4872945d74f3
+      internalID: 1627880748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_82
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 340
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8bcd4739e47a7478d3785a59b8d09c
+      internalID: -686347293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_83
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 340
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3422c377108277f40ad6be0493b386b4
+      internalID: -1168735601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_84
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479a73a2bd282b94fb617da3d6f443a0
+      internalID: -844165903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_85
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 320
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e32f31d2684d9242ab3e126a808a746
+      internalID: 394207596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc738f3fd772a1548a114c9ea82a10f7
+      internalID: 1551361276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_87
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234bcd8486ecd1649a65d42aac009cb5
+      internalID: -5840131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_88
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6896d6cfdeb94044295b0d439a23cbfb
+      internalID: 910738680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_89
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455030b2eed1f3b4187e7d6c125ba025
+      internalID: -1653019290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_90
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2045e2c4eda7b4589d729afdb51c19
+      internalID: 1689446853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_91
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e361d0b91b104d4e8bb4a1be642605a
+      internalID: 459286832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_92
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d8c8ee394f1614c961566b40576499
+      internalID: -1368188095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_93
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5871a64a367a1f48af4333b1ae533c1
+      internalID: -1159023596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c15ca4963528024fb844421de14c1b0
+      internalID: 2059191968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_95
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd955aa4783312141a3d1ff3e4ce1c57
+      internalID: -179226769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_96
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1d431ca4a944f44979b2977dc3ccb7
+      internalID: -1112619749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_97
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051ac3d4703b6a647b9d5537b7c0bd00
+      internalID: -21468393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_98
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70eaf103dacfee048a545b3c86020bcb
+      internalID: 2080071734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_99
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9108fade0b92bd54aba9764391ccf07a
+      internalID: 1827502294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94de701af289234478252dc0fb39f268
+      internalID: 763849198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_101
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3128d234fe9fe6e448889382b9c92ffb
+      internalID: 287157911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_102
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe501da105f48e445aa07800529d849b
+      internalID: 1299775471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_103
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8e1f97f8831744898258e7d2406a5e
+      internalID: -401172032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_104
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc4dc698cc28874993c08e5ff992681
+      internalID: 1547393630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_105
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df5c6dc9fdf57341bc1c9f3a9702e19
+      internalID: -534372722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_106
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ba8e3ff06695940aafc0fb3471f4e6
+      internalID: 623276192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_107
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ace27e9c3662d428acca8133d2fad2
+      internalID: 2120797402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_108
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb82c3d318d5392418512fe5b58b6c18
+      internalID: -662542381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_109
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18268f7e55a06d41832d588b26d410e
+      internalID: 1539194766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_110
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae692191c13e31d4888d52b4c43176f6
+      internalID: 1167874522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_111
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ac15399b321984f85ffbd4a519dc00
+      internalID: 981429869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_112
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476deb27b0f30324dae66934fa1f857e
+      internalID: -948506087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_113
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3317f924029a94390db40f206c3b9c
+      internalID: -1396879798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39622910ead8d1b47bd3d507f01aee52
+      internalID: 141197829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_115
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae6276e0190d2443bcc1439c7a9615e
+      internalID: -1948651850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_116
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bee81a8183284e4c8f28f9e46460780
+      internalID: 1262952301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_117
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2033e026021b9cd46845061e147972a8
+      internalID: -1104066395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_118
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000aa2523a025e245adf9f6c992f6c81
+      internalID: 1690490467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_119
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f7cfd589f1b2348a36d80c7fc46b4e
+      internalID: -1775803175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_120
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999f7d9f8641dd9449619bfbeb391de9
+      internalID: 1254244999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_121
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7210d832bdb84f441bc7c5228f511f07
+      internalID: 2087985957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_122
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226f8ac8c89b8aa46a79e69737cb7981
+      internalID: 62368331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_123
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8885ab6b2bd17b4fbafc97b8a818c82
+      internalID: -130878170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_124
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9593f1b6d3729f40b3b040e608ef523
+      internalID: 494876283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_125
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8fa8051ab2cf744b8fb1af9a1f71e3
+      internalID: 1595973300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee205636d053f04190cf042a3f2c0a8
+      internalID: -1431183896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_127
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c945e01aece8e394b912cedf2d6e594f
+      internalID: -1091765249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_128
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6127f90d60c14ce4ba304999237eb006
+      internalID: 1940825797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_129
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c9b80428a8b574b95698282a7ba452
+      internalID: 2021472018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_130
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8780a213c150bb8429c3f60787c9c20c
+      internalID: -945453546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_131
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffc8b13927462a40b20b80d179f7096
+      internalID: -1435699599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_132
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98eb863c4b2e4b545ab995629dbf2745
+      internalID: 806847505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_133
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05dff21d9aaa76e45ac759930f389d4c
+      internalID: -1737625680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_134
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3d2ffa180f7fa41afd7afb01508e24
+      internalID: 426300111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_135
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9928f0e75ce014b4b95e8287708bd659
+      internalID: 1425070040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_136
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599c3a29e3a1c614a888f35027120828
+      internalID: 1846380967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_137
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7213ee6fd3dc6634482defa2d3490d75
+      internalID: -2033992257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_138
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76653f30dc27b82498108d2ec5d64430
+      internalID: -2133606953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_139
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc75a4552b1780459d05f916f7c0af7
+      internalID: -596810770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_140
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12aa366b1e27f7409ec3da87729765f
+      internalID: 945573032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_141
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80942c181e87b044b2441c06e80c33c
+      internalID: -80566938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_142
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7c320f115a49241b4b5d8ee78ae630
+      internalID: 1485877597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_143
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4aaf7b5578b4504e8dab3682d8e8f7d
+      internalID: -750901022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_144
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629ac30d934f2324498ce8e17a0d9684
+      internalID: -530649132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_145
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94713d79a67e61b46928dca213108848
+      internalID: -984858448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_146
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd2a9f017fb21540a10706ed59738fe
+      internalID: 603413936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_147
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89627f872fb0102429d1bb7e79b5a74f
+      internalID: 963531399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_148
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa9179a3ba3d9e48a934d24290e5d09
+      internalID: -406240026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_149
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73f6df11373093459e9115cc79c4b48
+      internalID: 736862624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_150
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca7428dadd58f34296c97e418059cbe
+      internalID: 947657512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_151
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f48fc85995ea642bdaa06634f87b18
+      internalID: -742263909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_152
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ae5dce2d3d06243ae5e33516210b2a
+      internalID: -447906151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_153
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72baece16394a404c8397b8c52536dbb
+      internalID: -1227905020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_154
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda063669541a1d4981ca7530de44d26
+      internalID: -727504507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_155
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7708a9b248d5e4bb138cc0bc20a88b
+      internalID: 970348107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_156
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e183078ee90c2439d5b843843829fc
+      internalID: -319371684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_157
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5394e7307a8bfc442a6fc302d9ac93d9
+      internalID: -1137791855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8928c09c1239d649aa02c2b7f93a4ea
+      internalID: -1184789051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_159
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0287e086958aaa246b767c71ef2c491f
+      internalID: 1380747529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_160
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657b5cc88ecdcac47bdb6081cf8c6ed7
+      internalID: -686576759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_161
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a117d823ba2732f48b7ce03ea6ae1a7e
+      internalID: -185843949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_162
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798f7def51b6d6e4eb307c3c76abca91
+      internalID: -231435297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_163
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2412843574c02d449ae772868046a254
+      internalID: 1487777048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_164
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4126092f1d0524bad994ad8a3b3398
+      internalID: -76174069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_165
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ab6cff760419147aec08026e396233
+      internalID: -1341686297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_166
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5308e7c51a84d374cb4ad044cc5208fe
+      internalID: -244393168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_167
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0efdd5095a15f4fbdadc4012635085
+      internalID: 219099297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910ac0b950bd7b141b6fdc4336e308cc
+      internalID: 2088815966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_169
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f61bfcebaf772c48a75fe5d8cb55976
+      internalID: 906748903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_170
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cb053859d2b5a4d92d1a3771869a1f
+      internalID: -1553193298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_171
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fdaf8c91cd0404db799dbdef5c99eb
+      internalID: 1763604889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_172
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a146c9c67f3918d48b19cd1276de21e1
+      internalID: 1694600290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_173
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a87b3b1ad1a0741afc80a5a589f131
+      internalID: -1287396153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_174
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc812e6a4609e043bff933d2fd72c52
+      internalID: 799612595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_175
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e31c0298c910ea4694979164dea0663
+      internalID: 155225311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_176
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b39b4823f81a240aee2d37985f99ca
+      internalID: 1695746527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_177
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5850636ba8ec0f347bf001db52eb348e
+      internalID: -537748419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_178
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255a89646bab20b4c97c0bb5ac00fda9
+      internalID: 763273594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_179
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72da6dd96b9f0564388c0b2491efea29
+      internalID: -551383173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_180
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2dfe6a8ef93a140a98f3143b408dbe
+      internalID: 599149762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_181
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0bbd9c5ea8c3540a5689ec44514c5b
+      internalID: -1609957276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_182
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c70b0434a7fe74499ca29f674d6fb75
+      internalID: 761680667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_183
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3f1cfefff149d4495a84e1661c2274
+      internalID: -86239406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_184
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3469ea805d94b40876e40417b59893
+      internalID: 1771308948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_185
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa47668c71a64384da42cb4eded500f2
+      internalID: 2028004737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_186
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7892a2b14d789ba43b53c45959031d00
+      internalID: 1504514085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_187
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e7fe4d116507f4c8174d4b5c9f25e5
+      internalID: -950782250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_188
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ed4811016810848891dc9c0ef8b9d4
+      internalID: 83665998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_189
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640c79357bc66364bb10366c4fe69550
+      internalID: 1094382514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_190
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4818129034b7ea949b6f4ef43bcd27fb
+      internalID: 278678457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_191
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ad9aa3f0bfa6640a6e7df8c4723735
+      internalID: 2066296979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_192
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4476ac7b58382874ca08339d4420fa3a
+      internalID: -1938798567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_193
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6bcd84d5ff8e54bb2567a241dd2019
+      internalID: 1202033103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_194
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551db1dd3f92378479bc4a026ef5ef41
+      internalID: -1893310417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_195
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8908e896f7ddd9e498e42981caceff4e
+      internalID: -1748120762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_196
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e94813487a4a6848801661ab9c4793d
+      internalID: 1754260018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_197
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dcc75dfcbdb8a47a969c6121bab30a
+      internalID: 16311819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_198
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78eeb8a535d643e4fabc4d80e9664236
+      internalID: -500378875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_199
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76beab49c38398e48aae2b079d9ac22c
+      internalID: 1991421966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_200
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a4a5ebfcc515447a5ef10690bcd07e
+      internalID: -1721488207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_201
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715c39429740f5840834eb5cd2830e9a
+      internalID: 1489835791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_202
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220d89d77a87e794c91052226069e959
+      internalID: -755558489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_203
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a890b3bf86af2e8478c40c3f64115388
+      internalID: 2045181287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_204
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e01ba9027c4ef40b575c814dd9e4e6
+      internalID: 1444376564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_205
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecc9e96e7594324db86aafb384fa3af
+      internalID: 1571817915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_206
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fccfb2edd3be584f82839457d7d43d9
+      internalID: 1983702396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_207
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1815ff33b8c917d4e9d1c9bfe09f39b1
+      internalID: 1576806430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_208
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cc586aa4dee024c90f916675169be1
+      internalID: 331052123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_209
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317f35d0a579e794dba028fcfec9adb8
+      internalID: 1795285259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_210
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc4f95f923786547bb2cf6cad11c5ff
+      internalID: -714631033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_211
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39d8770cb07dc54e977790af6df8688
+      internalID: 899468758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_212
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eeb01d11f7e9e54aab1b71830a83a43
+      internalID: -1235367707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_213
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd7ee09e1ba14c4f826e1cb962aac26
+      internalID: 1605019905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_214
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0433a3027e222d44a123d6b6201f835
+      internalID: -1473224961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_215
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcc2b0802e5f8243ad6850ce714bc06
+      internalID: -795625812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_216
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d0c9607cb33b14aa81502577b6dd1b
+      internalID: 1969742144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_217
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7b0ba6682ec824a8762b698b69e529
+      internalID: -1541178260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_218
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b023d6bb09975b4cb21f01b11f26eb9
+      internalID: -944563146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_219
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a5f235262752c46a5528ea40dc092b
+      internalID: -1050606362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_220
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442cdb0a667ea204d98cc6b8754d0235
+      internalID: -1358862372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_221
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27b0a47d4c91b34bb976420fb5b0e69
+      internalID: -777676537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_222
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cef58bacc72fea409d5f2e3cdadbb58
+      internalID: -1446819675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_223
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c50dc93743bce48beea5758b5ce2b1
+      internalID: 1103728966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_tileset_224
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3c9fb8d7f0a6744874fdcefc6aad52
+      internalID: 1070670293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sewer_tileset_0: 1779277515
+      sewer_tileset_1: 2025083151
+      sewer_tileset_10: 1572908059
+      sewer_tileset_100: 763849198
+      sewer_tileset_101: 287157911
+      sewer_tileset_102: 1299775471
+      sewer_tileset_103: -401172032
+      sewer_tileset_104: 1547393630
+      sewer_tileset_105: -534372722
+      sewer_tileset_106: 623276192
+      sewer_tileset_107: 2120797402
+      sewer_tileset_108: -662542381
+      sewer_tileset_109: 1539194766
+      sewer_tileset_11: 1586304132
+      sewer_tileset_110: 1167874522
+      sewer_tileset_111: 981429869
+      sewer_tileset_112: -948506087
+      sewer_tileset_113: -1396879798
+      sewer_tileset_114: 141197829
+      sewer_tileset_115: -1948651850
+      sewer_tileset_116: 1262952301
+      sewer_tileset_117: -1104066395
+      sewer_tileset_118: 1690490467
+      sewer_tileset_119: -1775803175
+      sewer_tileset_12: 1309014334
+      sewer_tileset_120: 1254244999
+      sewer_tileset_121: 2087985957
+      sewer_tileset_122: 62368331
+      sewer_tileset_123: -130878170
+      sewer_tileset_124: 494876283
+      sewer_tileset_125: 1595973300
+      sewer_tileset_126: -1431183896
+      sewer_tileset_127: -1091765249
+      sewer_tileset_128: 1940825797
+      sewer_tileset_129: 2021472018
+      sewer_tileset_13: -504065915
+      sewer_tileset_130: -945453546
+      sewer_tileset_131: -1435699599
+      sewer_tileset_132: 806847505
+      sewer_tileset_133: -1737625680
+      sewer_tileset_134: 426300111
+      sewer_tileset_135: 1425070040
+      sewer_tileset_136: 1846380967
+      sewer_tileset_137: -2033992257
+      sewer_tileset_138: -2133606953
+      sewer_tileset_139: -596810770
+      sewer_tileset_14: -1531541858
+      sewer_tileset_140: 945573032
+      sewer_tileset_141: -80566938
+      sewer_tileset_142: 1485877597
+      sewer_tileset_143: -750901022
+      sewer_tileset_144: -530649132
+      sewer_tileset_145: -984858448
+      sewer_tileset_146: 603413936
+      sewer_tileset_147: 963531399
+      sewer_tileset_148: -406240026
+      sewer_tileset_149: 736862624
+      sewer_tileset_15: 1325662352
+      sewer_tileset_150: 947657512
+      sewer_tileset_151: -742263909
+      sewer_tileset_152: -447906151
+      sewer_tileset_153: -1227905020
+      sewer_tileset_154: -727504507
+      sewer_tileset_155: 970348107
+      sewer_tileset_156: -319371684
+      sewer_tileset_157: -1137791855
+      sewer_tileset_158: -1184789051
+      sewer_tileset_159: 1380747529
+      sewer_tileset_16: -1620545872
+      sewer_tileset_160: -686576759
+      sewer_tileset_161: -185843949
+      sewer_tileset_162: -231435297
+      sewer_tileset_163: 1487777048
+      sewer_tileset_164: -76174069
+      sewer_tileset_165: -1341686297
+      sewer_tileset_166: -244393168
+      sewer_tileset_167: 219099297
+      sewer_tileset_168: 2088815966
+      sewer_tileset_169: 906748903
+      sewer_tileset_17: -1194156059
+      sewer_tileset_170: -1553193298
+      sewer_tileset_171: 1763604889
+      sewer_tileset_172: 1694600290
+      sewer_tileset_173: -1287396153
+      sewer_tileset_174: 799612595
+      sewer_tileset_175: 155225311
+      sewer_tileset_176: 1695746527
+      sewer_tileset_177: -537748419
+      sewer_tileset_178: 763273594
+      sewer_tileset_179: -551383173
+      sewer_tileset_18: -717419266
+      sewer_tileset_180: 599149762
+      sewer_tileset_181: -1609957276
+      sewer_tileset_182: 761680667
+      sewer_tileset_183: -86239406
+      sewer_tileset_184: 1771308948
+      sewer_tileset_185: 2028004737
+      sewer_tileset_186: 1504514085
+      sewer_tileset_187: -950782250
+      sewer_tileset_188: 83665998
+      sewer_tileset_189: 1094382514
+      sewer_tileset_19: 64301279
+      sewer_tileset_190: 278678457
+      sewer_tileset_191: 2066296979
+      sewer_tileset_192: -1938798567
+      sewer_tileset_193: 1202033103
+      sewer_tileset_194: -1893310417
+      sewer_tileset_195: -1748120762
+      sewer_tileset_196: 1754260018
+      sewer_tileset_197: 16311819
+      sewer_tileset_198: -500378875
+      sewer_tileset_199: 1991421966
+      sewer_tileset_2: -1079232128
+      sewer_tileset_20: 388391249
+      sewer_tileset_200: -1721488207
+      sewer_tileset_201: 1489835791
+      sewer_tileset_202: -755558489
+      sewer_tileset_203: 2045181287
+      sewer_tileset_204: 1444376564
+      sewer_tileset_205: 1571817915
+      sewer_tileset_206: 1983702396
+      sewer_tileset_207: 1576806430
+      sewer_tileset_208: 331052123
+      sewer_tileset_209: 1795285259
+      sewer_tileset_21: -1429320348
+      sewer_tileset_210: -714631033
+      sewer_tileset_211: 899468758
+      sewer_tileset_212: -1235367707
+      sewer_tileset_213: 1605019905
+      sewer_tileset_214: -1473224961
+      sewer_tileset_215: -795625812
+      sewer_tileset_216: 1969742144
+      sewer_tileset_217: -1541178260
+      sewer_tileset_218: -944563146
+      sewer_tileset_219: -1050606362
+      sewer_tileset_22: 148545626
+      sewer_tileset_220: -1358862372
+      sewer_tileset_221: -777676537
+      sewer_tileset_222: -1446819675
+      sewer_tileset_223: 1103728966
+      sewer_tileset_224: 1070670293
+      sewer_tileset_23: -641391885
+      sewer_tileset_24: 320945257
+      sewer_tileset_25: -327337783
+      sewer_tileset_26: 1622037791
+      sewer_tileset_27: -1031955109
+      sewer_tileset_28: -645247118
+      sewer_tileset_29: -1793192594
+      sewer_tileset_3: 1203644623
+      sewer_tileset_30: -882176296
+      sewer_tileset_31: -1156656778
+      sewer_tileset_32: 1437515261
+      sewer_tileset_33: -388863235
+      sewer_tileset_34: 1647234331
+      sewer_tileset_35: 1108341925
+      sewer_tileset_36: -1901272042
+      sewer_tileset_37: -1403269640
+      sewer_tileset_38: -502368306
+      sewer_tileset_39: -581573591
+      sewer_tileset_4: -1374119371
+      sewer_tileset_40: 2015811483
+      sewer_tileset_41: -85765272
+      sewer_tileset_42: -385109793
+      sewer_tileset_43: 1721703458
+      sewer_tileset_44: -1693550522
+      sewer_tileset_45: 198871257
+      sewer_tileset_46: 485624378
+      sewer_tileset_47: 2107176626
+      sewer_tileset_48: -1825027753
+      sewer_tileset_49: 1783089277
+      sewer_tileset_5: -1918451582
+      sewer_tileset_50: 1654973406
+      sewer_tileset_51: 767236388
+      sewer_tileset_52: -887528972
+      sewer_tileset_53: 1387551449
+      sewer_tileset_54: -1935036089
+      sewer_tileset_55: -401938778
+      sewer_tileset_56: 1408366860
+      sewer_tileset_57: 1595335990
+      sewer_tileset_58: -1316104581
+      sewer_tileset_59: 1692883076
+      sewer_tileset_6: 1921963304
+      sewer_tileset_60: 545494196
+      sewer_tileset_61: 777246120
+      sewer_tileset_62: -975058095
+      sewer_tileset_63: 77113637
+      sewer_tileset_64: -832790780
+      sewer_tileset_65: -1679144930
+      sewer_tileset_66: -1152110874
+      sewer_tileset_67: -2055406193
+      sewer_tileset_68: 1011575510
+      sewer_tileset_69: -1004979117
+      sewer_tileset_7: -2143205934
+      sewer_tileset_70: -830289646
+      sewer_tileset_71: 639529101
+      sewer_tileset_72: -743136381
+      sewer_tileset_73: 1880663074
+      sewer_tileset_74: 783262347
+      sewer_tileset_75: 89253822
+      sewer_tileset_76: 592724749
+      sewer_tileset_77: 499804557
+      sewer_tileset_78: 1627580016
+      sewer_tileset_79: -484825560
+      sewer_tileset_8: 295403805
+      sewer_tileset_80: -1693027162
+      sewer_tileset_81: 1627880748
+      sewer_tileset_82: -686347293
+      sewer_tileset_83: -1168735601
+      sewer_tileset_84: -844165903
+      sewer_tileset_85: 394207596
+      sewer_tileset_86: 1551361276
+      sewer_tileset_87: -5840131
+      sewer_tileset_88: 910738680
+      sewer_tileset_89: -1653019290
+      sewer_tileset_9: -2094875657
+      sewer_tileset_90: 1689446853
+      sewer_tileset_91: 459286832
+      sewer_tileset_92: -1368188095
+      sewer_tileset_93: -1159023596
+      sewer_tileset_94: 2059191968
+      sewer_tileset_95: -179226769
+      sewer_tileset_96: -1112619749
+      sewer_tileset_97: -21468393
+      sewer_tileset_98: 2080071734
+      sewer_tileset_99: 1827502294
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
