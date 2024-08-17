@@ -59,6 +59,7 @@ public class Playermovement : MonoBehaviour
         if (zoom.canMove){
             if(zoom.mini){
                 realSpeed = speed * 0.1f;
+                rb.gravityScale = 0.1f;
             }else{
                 realSpeed = speed;
             }
