@@ -1,5 +1,5 @@
-using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerCtrl : MonoBehaviour
 {
@@ -17,15 +17,19 @@ public class PlayerCtrl : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (zoomScript.mini){
-            realSpeed = movSpeed * 0.03f;
-        }else{
-            realSpeed = movSpeed;
-        }
-        float moveX = Input.GetAxis("Horizontal");
-        float moveY = Input.GetAxis("Vertical");
-        movement = new Vector2(moveX, moveY);
+        if (zoomScript.canMove){
+            if (zoomScript.mini){
+                realSpeed = movSpeed * 0.03f;
+            }else{
+                realSpeed = movSpeed;
+            }
+            float moveX = Input.GetAxis("Horizontal");
+            float moveY = Input.GetAxis("Vertical");
+            movement = new Vector2(moveX, moveY);
 
-        rb.velocity = movement * realSpeed;
+            rb.velocity = movement * realSpeed;
+        }else{
+            rb.velocity = movement * 0;
+        }
     }
 }

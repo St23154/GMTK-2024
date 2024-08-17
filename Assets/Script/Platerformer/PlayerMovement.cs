@@ -9,8 +9,9 @@ public class SIMPLE_PLayermovement : MonoBehaviour
     private float realSpeed;
     public float jumpingPower = 16f;
     private float realJumpingPower;
-    
+
     private bool isFacingRight = true;
+    private bool canMove = true;
 
     private ZoomEffect zoom;
 
@@ -31,14 +32,16 @@ public class SIMPLE_PLayermovement : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
 
-        if(zoom.mini){
-            realJumpingPower = jumpingPower * 0.3f;
-        }else {
-            realJumpingPower = jumpingPower;
-        }
+        if (zoom.canMove){
+            if(zoom.mini){
+                realJumpingPower = jumpingPower * 0.3f;
+            }else {
+                realJumpingPower = jumpingPower;
+            }
 
-        if (Input.GetButtonDown("Jump") && IsGrounded()){
-            rb.velocity = new Vector2(rb.velocity.x, realJumpingPower);
+            if (Input.GetButtonDown("Jump") && IsGrounded()){
+                rb.velocity = new Vector2(rb.velocity.x, realJumpingPower);
+            }
         }
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f){
@@ -52,12 +55,14 @@ public class SIMPLE_PLayermovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(zoom.mini){
-            realSpeed = speed * 0.1f;
-        }else{
-            realSpeed = speed;
+        if (zoom.canMove){
+            if(zoom.mini){
+                realSpeed = speed * 0.1f;
+            }else{
+                realSpeed = speed;
+            }
+            rb.velocity = new Vector2(horizontal * realSpeed, rb.velocity.y);
         }
-        rb.velocity = new Vector2(horizontal * realSpeed, rb.velocity.y);
     }
 
     private bool IsGrounded()

@@ -8,6 +8,7 @@ public class ZoomEffect : MonoBehaviour
     public bool isAnimating = false;
     public float speed = 2f;
     public float posDown = 1;
+    public bool canMove = true;
 
     public Animator myCameraAnimator;
     public Vector3 targetScale = new Vector3(0.001f, 0.001f, 0.001f);
@@ -35,6 +36,7 @@ public class ZoomEffect : MonoBehaviour
                     transform.position = targetPos;
                     transform.localScale = targetScale;
                     isAnimating = false;
+                    canMove = true;
                 }
             
             }else{
@@ -43,6 +45,7 @@ public class ZoomEffect : MonoBehaviour
                 if (Vector3.Distance(transform.localScale, originalScale) < closeEnough){
                     transform.position = targetPos;
                     isAnimating = false;
+                    canMove = true;
                     transform.localScale = originalScale;
                 }
             }
@@ -53,6 +56,7 @@ public class ZoomEffect : MonoBehaviour
         if (mini == true){
             Debug.Log("tu est déjà mini");
         }else{
+            canMove = false;
             mini = true;
             targetPos = new Vector3(transform.position.x, transform.position.y - posDown, transform.position.z);
             myCameraAnimator.SetTrigger("Zoom");
@@ -65,6 +69,7 @@ public class ZoomEffect : MonoBehaviour
         if (mini == false){
             Debug.Log("tu est déjà grand");
         }else{
+            canMove = false;
             mini = false;
             targetPos = new Vector3(transform.position.x, transform.position.y + posDown, transform.position.z);
             myCameraAnimator.SetTrigger("UnZoom");
