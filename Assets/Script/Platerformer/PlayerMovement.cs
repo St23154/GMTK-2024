@@ -11,7 +11,6 @@ public class Playermovement : MonoBehaviour
     private float realJumpingPower;
 
     private bool isFacingRight = true;
-    private bool canMove = true;
 
     private ZoomEffect zoom;
     private Animator myAnimator;
