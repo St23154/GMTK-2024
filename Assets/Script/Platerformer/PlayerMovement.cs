@@ -30,19 +30,15 @@ public class SIMPLE_PLayermovement : MonoBehaviour
 
         if(zoom.mini){
             realJumpingPower = jumpingPower * 0.3f;
-        }
-
-        else {
+        }else {
             realJumpingPower = jumpingPower;
         }
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
-        {
+        if (Input.GetButtonDown("Jump") && IsGrounded()){
             rb.velocity = new Vector2(rb.velocity.x, realJumpingPower);
         }
 
-        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
-        {
+        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f){
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
 
@@ -54,11 +50,8 @@ public class SIMPLE_PLayermovement : MonoBehaviour
     private void FixedUpdate()
     {
         if(zoom.mini){
-            Debug.Log("azert");
             realSpeed = speed * 0.1f;
-        }
-
-        else{
+        }else{
             realSpeed = speed;
         }
         rb.velocity = new Vector2(horizontal * realSpeed, rb.velocity.y);
