@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9ea1e3663fea9b34da90c0cc0e81646e
+guid: 9e6363177d180704391d54eecd907eb8
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Bur
+  - name: Confidentiel
     originalName: 
-    pivot: {x: 0.5, y: -0.5}
+    pivot: {x: 0.49484533, y: -0.007874016}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 64
-      height: 32
-    spriteID: 17733c39bfd6e5d4ab2a4cff70fd20ee
+      width: 97
+      height: 127
+    spriteID: 78111d18e9da4674dbaf40cf584087cd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,25 +144,25 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1911892609
-    name: Bur
+    guid: 1234155476
+    name: Confidentiel
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Bur
+    - name: Confidentiel
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 16
-        width: 64
-        height: 32
-      spriteId: 17733c39bfd6e5d4ab2a4cff70fd20ee
+        x: 16
+        y: 1
+        width: 97
+        height: 127
+      spriteId: 78111d18e9da4674dbaf40cf584087cd
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 64, y: 64}
+  canvasSize: {x: 128, y: 128}
