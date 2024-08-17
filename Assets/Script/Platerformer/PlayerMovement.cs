@@ -1,8 +1,8 @@
-using Unity.VisualScripting;
 using UnityEngine;
+using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class SIMPLE_PLayermovement : MonoBehaviour
+public class Playermovement : MonoBehaviour
 {
     private float horizontal;
     public float speed = 8f;
@@ -94,8 +94,18 @@ public class SIMPLE_PLayermovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-			Debug.Log("azerty");
-            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+            reloadScene();
         }
+    }
+
+    public void Die()
+    {
+        myAnimator.SetTrigger("Die");
+    }
+
+    IEnumerator reloadScene()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
     }
 }
