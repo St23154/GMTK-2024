@@ -16,6 +16,8 @@ public class Playermovement : MonoBehaviour
     private ZoomEffect zoom;
     private Animator myAnimator;
 
+    [SerializeField] private Vector2 _groundCheckSize = new Vector2(0.49f, 0.03f);
+
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -84,7 +86,7 @@ public class Playermovement : MonoBehaviour
 
     private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        return Physics2D.OverlapBox(groundCheck.position, _groundCheckSize, 0, groundLayer);
     }
 
     private void Flip()
@@ -110,6 +112,7 @@ public class Playermovement : MonoBehaviour
     public void Die()
     {
         myAnimator.SetTrigger("Die");
+        zoom.canMove = false;
     }
 
     IEnumerator reloadScene()
