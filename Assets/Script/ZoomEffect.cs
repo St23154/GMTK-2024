@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ShrinkAnimation : MonoBehaviour
+public class ZoomEffect : MonoBehaviour
 {
     public bool mini = false;
     public bool isAnimating = false;
@@ -25,21 +25,20 @@ public class ShrinkAnimation : MonoBehaviour
             {
                 transform.localScale = Vector3.Lerp(transform.localScale, targetScale, speed * Time.deltaTime);
                 transform.position = Vector3.Lerp(transform.position, targetPos, speed * Time.deltaTime);
-                if (Vector3.Distance(transform.position, targetPos) < closeEnough*closeEnough){
+                if (Vector3.Distance(transform.position, targetPos) < closeEnough || Vector3.Distance(transform.localScale, targetScale) < closeEnough){
                     transform.position = targetPos;
+                    Debug.Log("aa");
+                    transform.localScale = targetScale;
                     isAnimating = false;
                 }
-                if (Vector3.Distance(transform.localScale, targetScale) < closeEnough){
-                    transform.localScale = targetScale;
-                }
+            
             }else{
                 transform.localScale = Vector3.Lerp(transform.localScale, originalScale, speed * Time.deltaTime);
                 transform.position = Vector3.Lerp(transform.position, targetPos, speed * Time.deltaTime);
-                if (Vector3.Distance(transform.position, targetPos) < closeEnough){
+                if (Vector3.Distance(transform.position, targetPos) < closeEnough || Vector3.Distance(transform.localScale, originalScale) < closeEnough){
                     transform.position = targetPos;
+                    Debug.Log("zz");
                     isAnimating = false;
-                }
-                if (Vector3.Distance(transform.localScale, originalScale) < closeEnough*closeEnough){
                     transform.localScale = originalScale;
                 }
             }

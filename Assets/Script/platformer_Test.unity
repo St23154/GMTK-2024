@@ -1554,6 +1554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainCharacter
       objectReference: {fileID: 0}
+    - target: {fileID: 8279189669943171483, guid: 26600d788bd2df04abdf068ce7390b78, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1582,9 +1586,9 @@ MonoBehaviour:
   mini: 0
   isAnimating: 0
   speed: 2
-  posDown: 1
+  posDown: 0.5
   myCameraAnimator: {fileID: 1576730446}
-  targetScale: {x: 0.001, y: 0.001, z: 0.001}
+  targetScale: {x: 0.01, y: 0.01, z: 1}
 --- !u!4 &7484936575082290575 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 33112394538482099, guid: 26600d788bd2df04abdf068ce7390b78, type: 3}
