@@ -22,6 +22,9 @@ public class AnimationManager : MonoBehaviour
         myAnimator.SetTrigger("1");
         string methodName = functionNames[index];
         Invoke(methodName, 1.5f); 
+        Kamera.GetComponent<CameraTopDown>().enabled = false;
+        mainChar.GetComponent<PlayerCtrl>().enabled = false;
+        gameObject.GetComponent<Animator>().enabled = true;
     }
 
     public void NextIndex(float time)
