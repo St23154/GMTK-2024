@@ -5268,7 +5268,7 @@ MonoBehaviour:
   posDown: 0
   canMove: 1
   myCameraAnimator: {fileID: 1800749440}
-  targetScale: {x: 0.01, y: 0.01, z: 0.01}
+  targetScale: {x: 0.01, y: 0.01}
   particles:
   - {fileID: 55202806}
 --- !u!1 &263885534
