@@ -17,17 +17,22 @@ public class AnimationManager : MonoBehaviour
         Invoke(methodName, 2f); 
     }
 
-    public void index1()
+    public void NextIndex(float time)
     {
-        AudioManager.instance.Play("Jump");
         index += 1;
         string methodName = functionNames[index];
-        Invoke(methodName, 3f); 
+        Invoke(methodName, time); 
+    }
+
+    public void index1()
+    {
+        dialogueBoxes[0].SetActive(true); 
     }
 
     public void index2()
     {
-        dialogueBoxes[0].SetActive(true);
+        AudioManager.instance.Play("Jump");
+        NextIndex(3f);
     } 
 
     public void index3()

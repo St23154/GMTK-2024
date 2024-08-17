@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Ingredient
   - tallPotion
+  - AnimationManager
   layers:
   - Default
   - TransparentFX

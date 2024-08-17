@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Dialogue : MonoBehaviour
 {
-
+    private AnimationManager scriptAnim;
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
@@ -14,6 +14,7 @@ public class Dialogue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        scriptAnim = GameObject.FindWithTag("AnimationManager").GetComponent<AnimationManager>();
         textComponent.text = string.Empty;
         StartDialogue();
     }
@@ -53,6 +54,7 @@ public class Dialogue : MonoBehaviour
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
         }else{
+            scriptAnim.NextIndex(0);
             gameObject.SetActive(false);
         }
     }
