@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7808f35acda08f04ea3a88c4f80acf4c
+guid: e3e9e904c7c9da14f8a8db384f3a10cd
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Dossier
+  - name: Bur
     originalName: 
-    pivot: {x: 0.49484533, y: -0.007874016}
+    pivot: {x: 0.5, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 97
-      height: 127
-    spriteID: e3358a94f0070d545bd05691c8d1e107
+      width: 64
+      height: 32
+    spriteID: d7e8bc76e393f57448aa8a3faddf41f0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,25 +144,25 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1239437903
-    name: Dossier
+    guid: 1911892609
+    name: Bur
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Dossier
+    - name: Bur
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 16
-        y: 1
-        width: 97
-        height: 127
-      spriteId: e3358a94f0070d545bd05691c8d1e107
+        x: 0
+        y: 16
+        width: 64
+        height: 32
+      spriteId: d7e8bc76e393f57448aa8a3faddf41f0
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 128, y: 128}
+  canvasSize: {x: 64, y: 64}
