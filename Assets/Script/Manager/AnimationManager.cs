@@ -11,11 +11,13 @@ public class AnimationManager : MonoBehaviour
     public GameObject Kamera;
     public GameObject fissure;
     public GameObject scientist;
+    public GameObject door;
     private List<string> functionNames = new List<string> { "index1", "index2", "index3", "index4", "index5", "index6", "index7", "index8", "index9" };
     public List<GameObject> dialogueBoxes;
 
     void Start()
     {
+        door.SetActive(false);
         prisonner.SetActive(true);
         square.SetActive(false);
         mainChar.SetActive(false);
@@ -88,6 +90,7 @@ public class AnimationManager : MonoBehaviour
         prisonner.SetActive(false);
         square.SetActive(true);
         mainChar.SetActive(true);
+        door.SetActive(true);
         scientist.SetActive(false);
         myAnimator.SetTrigger("6");
         NextIndex(2.5f);
