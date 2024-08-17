@@ -17,6 +17,7 @@ public class IngredientManager : MonoBehaviour
 
             Destroy(gameObject);
             if (CollectedIngredients >= 4){
+                CollectedIngredients = 4;
                 EndGame();
             }
         }
