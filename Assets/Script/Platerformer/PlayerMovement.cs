@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 
 public class Playermovement : MonoBehaviour
 {
@@ -74,7 +75,7 @@ public class Playermovement : MonoBehaviour
                 myAnimator.SetBool("IsMoving", true);
                 random = true;
             }else{
-                destroyParticle();
+                StartCoroutine(destroyParticle());
                 myAnimator.SetBool("IsMoving", false);
                 if (random){
                     random = false;
@@ -105,7 +106,7 @@ public class Playermovement : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Enemy")){
-            reloadScene();
+            StartCoroutine(reloadScene());
             Die();
         }
     }
