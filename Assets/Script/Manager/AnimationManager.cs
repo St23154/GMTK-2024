@@ -5,11 +5,18 @@ public class AnimationManager : MonoBehaviour
 {
     private Animator myAnimator;
     public int index = 0;
+    public GameObject square;
+    public GameObject prisonner;
+    public GameObject mainChar;
+    public GameObject Kamera;
     private List<string> functionNames = new List<string> { "index1", "index2", "index3", "index4", "index5", "index6", "index7", "index8", "index9" };
     public List<GameObject> dialogueBoxes;
 
     void Start()
     {
+        prisonner.SetActive(true);
+        square.SetActive(false);
+        mainChar.SetActive(false);
         myAnimator = GetComponent<Animator>();
         AudioManager.instance.Play("Mysterious");
         myAnimator.SetTrigger("1");
@@ -70,6 +77,19 @@ public class AnimationManager : MonoBehaviour
 
     public void index8()
     {
+        Kamera.transform.position = new Vector3(-4f, 2f, -99);
+        prisonner.SetActive(false);
+        square.SetActive(true);
+        mainChar.SetActive(true);
+        myAnimator.SetTrigger("6");
+        NextIndex(2.5f);
+    }
 
+    public void index9()
+    {
+        Destroy(square);
+        Kamera.GetComponent<CameraTopDown>().enabled = true;
+        mainChar.GetComponent<PlayerCtrl>().enabled = true;
+        gameObject.GetComponent<Animator>().enabled = false;
     }
 }
