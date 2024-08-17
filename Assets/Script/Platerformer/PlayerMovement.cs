@@ -98,7 +98,7 @@ public class Playermovement : MonoBehaviour
         if (zoom.canMove){
             if(zoom.mini){
                 realSpeed = speed * 0.1f;
-                rb.gravityScale = 0.1f;
+            //rb.gravityScale = 1f;
             }else{
                 realSpeed = speed;
                 rb.gravityScale = IsGrounded() ? 1f : 2.5f; // Increased gravity when not grounded 
