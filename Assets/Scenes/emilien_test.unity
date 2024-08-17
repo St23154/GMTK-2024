@@ -55314,7 +55314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5fdbc6dfe3056a4390086d4978240a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1580003619}
   speed: 5
   stopDistance: 0.5
 --- !u!61 &507431467
