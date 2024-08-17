@@ -106,4 +106,9 @@ public class ZoomEffect : MonoBehaviour
         yield return new WaitForSeconds(5);
         DesactivateParticles();
     }
+
+    public void MakeHimMove()
+    {
+        canMove = true;
+    }
 }

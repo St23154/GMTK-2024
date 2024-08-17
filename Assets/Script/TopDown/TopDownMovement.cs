@@ -3,7 +3,7 @@ using UnityEngine.UIElements;
 
 public class PlayerCtrl : MonoBehaviour
 {
-    public float movSpeed = 5f;
+    public float movSpeed;
     private float realSpeed;
     private ZoomEffect zoomScript;
     Rigidbody2D rb;
@@ -17,19 +17,27 @@ public class PlayerCtrl : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (zoomScript.canMove){
-            if (zoomScript.mini){
+        if (zoomScript.canMove)
+        {
+            if (zoomScript.mini)
+            {
                 realSpeed = movSpeed * 0.03f;
             }else{
                 realSpeed = movSpeed;
             }
+            
             float moveX = Input.GetAxis("Horizontal");
             float moveY = Input.GetAxis("Vertical");
+            
             movement = new Vector2(moveX, moveY);
+            
+            if (movement.magnitude > 1){
+                movement.Normalize();
+            }
 
             rb.velocity = movement * realSpeed;
         }else{
-            rb.velocity = movement * 0;
+            rb.velocity = Vector2.zero;
         }
     }
 }
