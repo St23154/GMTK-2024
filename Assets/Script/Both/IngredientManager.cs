@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
 
 public class IngredientManager : MonoBehaviour
@@ -15,6 +16,13 @@ public class IngredientManager : MonoBehaviour
             //JOUER LE SON CRUNCH
 
             Destroy(gameObject);
+            if (CollectedIngredients >= 4){
+                EndGame();
+            }
         }
+    }
+
+    void EndGame(){
+        
     }
 }

@@ -25,7 +25,7 @@ public class ZoomEffect : MonoBehaviour
 
     void Update()
     {
-        if (isAnimating)
+        if (isAnimating){
             if (mini)
             {
                 ActivateParticles();
@@ -49,6 +49,7 @@ public class ZoomEffect : MonoBehaviour
                     transform.localScale = originalScale;
                 }
             }
+        }
     }
 
     public void Mini()

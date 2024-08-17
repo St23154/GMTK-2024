@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 62cc9450c7abb2a74b768a7bb797e836
+guid: 19beb83f0c8243de5b33ec3a23e0879c
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: cheesecasumarzu_Frame_0
+  - name: ingredient_cheese_Frame_0
     originalName: 
     pivot: {x: 0.51724136, y: -0.07692308}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 194
+      x: 81
+      y: 183
       width: 29
       height: 26
-    spriteID: b27820e0e609f92619a9b4ed72178601
+    spriteID: 99ff06c907c2d0c88ae3108d9165660d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -140,19 +140,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 194}
-  - name: cheesecasumarzu_Frame_1
+    uvTransform: {x: 81, y: 183}
+  - name: ingredient_cheese_Frame_1
     originalName: 
-    pivot: {x: 0.51724136, y: -0.074074075}
+    pivot: {x: 0.51724136, y: -0.07692308}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 120
+      x: 81
+      y: 217
       width: 29
-      height: 27
-    spriteID: ed7994a091a6bc49381f2d6173b50654
+      height: 26
+    spriteID: bb7e16b4b0c2aeea085b9cf7eb2fdfd9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -160,19 +160,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 120}
-  - name: cheesecasumarzu_Frame_2
+    uvTransform: {x: 81, y: 217}
+  - name: ingredient_cheese_Frame_2
     originalName: 
     pivot: {x: 0.53333336, y: -0.071428575}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 42
-      y: 191
+      x: 4
+      y: 83
       width: 30
       height: 28
-    spriteID: 223c1d303eaf58cc9945a5d466704aa0
+    spriteID: 58285e9d6c7609621a1b5c41549dfd66
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -180,8 +180,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 42, y: 191}
-  - name: cheesecasumarzu_Frame_3
+    uvTransform: {x: 4, y: 83}
+  - name: ingredient_cheese_Frame_3
     originalName: 
     pivot: {x: 0.516129, y: -0.071428575}
     alignment: 9
@@ -189,10 +189,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 42
-      y: 79
+      y: 194
       width: 31
       height: 28
-    spriteID: 3cd11e78e3db05461b7d53bf6006081d
+    spriteID: 1be8bd39b5560d6399497af09117a279
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -200,8 +200,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 42, y: 79}
-  - name: cheesecasumarzu_Frame_4
+    uvTransform: {x: 42, y: 194}
+  - name: ingredient_cheese_Frame_4
     originalName: 
     pivot: {x: 0.516129, y: -0.06896552}
     alignment: 9
@@ -209,10 +209,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 42
-      y: 42
+      y: 118
       width: 31
       height: 29
-    spriteID: 0f0700e534f885fb68b418ae0c683d83
+    spriteID: b4bcbc8d4b7948d6183c2be5773d4da9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -220,19 +220,39 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 42, y: 42}
-  - name: cheesecasumarzu_Frame_5
+    uvTransform: {x: 42, y: 118}
+  - name: ingredient_cheese_Frame_5
     originalName: 
     pivot: {x: 0.53333336, y: -0.06666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 43
+      x: 42
+      y: 80
       width: 30
       height: 30
-    spriteID: ad6f9056faf405e1898ef6ef3549e2a5
+    spriteID: 5f2c3cc1eefc3b55294a1dd943392a1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 80}
+  - name: ingredient_cheese_Frame_6
+    originalName: 
+    pivot: {x: 0.4814815, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 43
+      width: 27
+      height: 32
+    spriteID: f993473a0ae5378688296987d15981dc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -241,38 +261,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 43}
-  - name: cheesecasumarzu_Frame_6
-    originalName: 
-    pivot: {x: 0.4814815, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 42
-      y: 151
-      width: 27
-      height: 32
-    spriteID: ae60bb075621a0ce49e02ad6ff380034
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 42, y: 151}
-  - name: cheesecasumarzu_Frame_7
+  - name: ingredient_cheese_Frame_7
     originalName: 
     pivot: {x: 0.52, y: -0.032258064}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 155
+      x: 81
+      y: 144
       width: 25
       height: 31
-    spriteID: 321542be81fe10752899eaa2398f6fd6
+    spriteID: 0e5f2afcae436dd3a87ec11f9c435a8f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -280,19 +280,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 155}
-  - name: cheesecasumarzu_Frame_8
+    uvTransform: {x: 81, y: 144}
+  - name: ingredient_cheese_Frame_8
     originalName: 
     pivot: {x: 0.53846157, y: -0.10344827}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 81
-      y: 108
+      x: 4
+      y: 119
       width: 26
       height: 29
-    spriteID: 7411294a2e353bcffb1a982ad17e1687
+    spriteID: 8c3d0702842cd8ca4a04bbab608296b6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -300,19 +300,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 81, y: 108}
-  - name: cheesecasumarzu_Frame_9
+    uvTransform: {x: 4, y: 119}
+  - name: ingredient_cheese_Frame_9
     originalName: 
     pivot: {x: 0.4827586, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 81
+      x: 42
+      y: 155
       width: 29
       height: 31
-    spriteID: f79dd4c475fb70a21b76c65ce492242b
+    spriteID: 038512dce5c5c7f05b180af6fddbbad4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -320,8 +320,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 81}
-  - name: cheesecasumarzu_Frame_10
+    uvTransform: {x: 42, y: 155}
+  - name: ingredient_cheese_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -332,7 +332,7 @@ ScriptedImporter:
       y: 4
       width: 30
       height: 31
-    spriteID: 85896e094107c078bacd9f123c982528
+    spriteID: 28c8c8a812faff762832d3c0fd2286c1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -341,69 +341,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: cheesecasumarzu_Frame_11
+  - name: ingredient_cheese_Frame_11
     originalName: 
     pivot: {x: 0.516129, y: -0.071428575}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 42
-      y: 115
-      width: 31
-      height: 28
-    spriteID: 985e2d6279dbab2cfaf3b4d2457b14b3
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 42, y: 115}
-  - name: cheesecasumarzu_Frame_12
-    originalName: 
-    pivot: {x: 0.516129, y: -0.03846154}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 81
-      y: 74
-      width: 31
-      height: 26
-    spriteID: 813ee0a8bc1af4d9a834d89e8f2b04fd
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 81, y: 74}
-  - name: cheesecasumarzu_Frame_13
-    originalName: 
-    pivot: {x: 0.48387095, y: -0.12}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 42
-      y: 227
-      width: 31
-      height: 25
-    spriteID: b2c9ba22c402a02c49ab8114d37151b9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 42, y: 227}
-  - name: cheesecasumarzu_Frame_14
-    originalName: 
-    pivot: {x: 0.516129, y: -0.074074075}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -411,8 +351,8 @@ ScriptedImporter:
       x: 81
       y: 4
       width: 31
-      height: 27
-    spriteID: 0ba8125e81edab6718602f2fddb4d61c
+      height: 28
+    spriteID: c455e62f78a627868b774bd8bc2c790d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -421,18 +361,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 81, y: 4}
-  - name: cheesecasumarzu_Frame_15
+  - name: ingredient_cheese_Frame_12
     originalName: 
-    pivot: {x: 0.516129, y: -0.074074075}
+    pivot: {x: 0.516129, y: -0.03846154}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 81
-      y: 39
+      y: 110
       width: 31
-      height: 27
-    spriteID: a4d20f8225c7a188e93a8bae73e20214
+      height: 26
+    spriteID: 0a923d05f675e0ba18aff258531f0cbe
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -440,10 +380,30 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 81, y: 39}
-  - name: cheesecasumarzu_Frame_16
+    uvTransform: {x: 81, y: 110}
+  - name: ingredient_cheese_Frame_13
     originalName: 
-    pivot: {x: 0.516129, y: -0.033333335}
+    pivot: {x: 0.48387095, y: -0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 40
+      width: 31
+      height: 27
+    spriteID: 4cb579226d5cbfbfa91d8f109c1cd5de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 40}
+  - name: ingredient_cheese_Frame_14
+    originalName: 
+    pivot: {x: 0.516129, y: -0.06666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -452,7 +412,7 @@ ScriptedImporter:
       y: 4
       width: 31
       height: 30
-    spriteID: 421c318e898c0b3b3ad2f3c9589fe2cd
+    spriteID: ddeec857fc04c705b9f3fc792e7ff949
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -461,16 +421,56 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 42, y: 4}
+  - name: ingredient_cheese_Frame_15
+    originalName: 
+    pivot: {x: 0.516129, y: -0.074074075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 75
+      width: 31
+      height: 27
+    spriteID: aa91776839b4fb438bf946ad1f34f21b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 75}
+  - name: ingredient_cheese_Frame_16
+    originalName: 
+    pivot: {x: 0.516129, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 42
+      width: 31
+      height: 30
+    spriteID: 736abaf82878681459941efb395aa147
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 42}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -685238716
-    name: cheesecasumarzu
+    guid: 1749987839
+    name: ingredient_cheese
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: cheesecasumarzu_Frame_0
+    - name: ingredient_cheese_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -478,17 +478,17 @@ ScriptedImporter:
         y: 2
         width: 29
         height: 26
-      spriteId: b27820e0e609f92619a9b4ed72178601
-    - name: cheesecasumarzu_Frame_1
+      spriteId: 99ff06c907c2d0c88ae3108d9165660d
+    - name: ingredient_cheese_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
         x: 1
         y: 2
         width: 29
-        height: 27
-      spriteId: ed7994a091a6bc49381f2d6173b50654
-    - name: cheesecasumarzu_Frame_2
+        height: 26
+      spriteId: bb7e16b4b0c2aeea085b9cf7eb2fdfd9
+    - name: ingredient_cheese_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -496,8 +496,8 @@ ScriptedImporter:
         y: 2
         width: 30
         height: 28
-      spriteId: 223c1d303eaf58cc9945a5d466704aa0
-    - name: cheesecasumarzu_Frame_3
+      spriteId: 58285e9d6c7609621a1b5c41549dfd66
+    - name: ingredient_cheese_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -505,8 +505,8 @@ ScriptedImporter:
         y: 2
         width: 31
         height: 28
-      spriteId: 3cd11e78e3db05461b7d53bf6006081d
-    - name: cheesecasumarzu_Frame_4
+      spriteId: 1be8bd39b5560d6399497af09117a279
+    - name: ingredient_cheese_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -514,8 +514,8 @@ ScriptedImporter:
         y: 2
         width: 31
         height: 29
-      spriteId: 0f0700e534f885fb68b418ae0c683d83
-    - name: cheesecasumarzu_Frame_5
+      spriteId: b4bcbc8d4b7948d6183c2be5773d4da9
+    - name: ingredient_cheese_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -523,8 +523,8 @@ ScriptedImporter:
         y: 2
         width: 30
         height: 30
-      spriteId: ad6f9056faf405e1898ef6ef3549e2a5
-    - name: cheesecasumarzu_Frame_6
+      spriteId: 5f2c3cc1eefc3b55294a1dd943392a1a
+    - name: ingredient_cheese_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -532,8 +532,8 @@ ScriptedImporter:
         y: 0
         width: 27
         height: 32
-      spriteId: ae60bb075621a0ce49e02ad6ff380034
-    - name: cheesecasumarzu_Frame_7
+      spriteId: f993473a0ae5378688296987d15981dc
+    - name: ingredient_cheese_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -541,8 +541,8 @@ ScriptedImporter:
         y: 1
         width: 25
         height: 31
-      spriteId: 321542be81fe10752899eaa2398f6fd6
-    - name: cheesecasumarzu_Frame_8
+      spriteId: 0e5f2afcae436dd3a87ec11f9c435a8f
+    - name: ingredient_cheese_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -550,8 +550,8 @@ ScriptedImporter:
         y: 3
         width: 26
         height: 29
-      spriteId: 7411294a2e353bcffb1a982ad17e1687
-    - name: cheesecasumarzu_Frame_9
+      spriteId: 8c3d0702842cd8ca4a04bbab608296b6
+    - name: ingredient_cheese_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -559,8 +559,8 @@ ScriptedImporter:
         y: 0
         width: 29
         height: 31
-      spriteId: f79dd4c475fb70a21b76c65ce492242b
-    - name: cheesecasumarzu_Frame_10
+      spriteId: 038512dce5c5c7f05b180af6fddbbad4
+    - name: ingredient_cheese_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -568,8 +568,8 @@ ScriptedImporter:
         y: 0
         width: 30
         height: 31
-      spriteId: 85896e094107c078bacd9f123c982528
-    - name: cheesecasumarzu_Frame_11
+      spriteId: 28c8c8a812faff762832d3c0fd2286c1
+    - name: ingredient_cheese_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -577,8 +577,8 @@ ScriptedImporter:
         y: 2
         width: 31
         height: 28
-      spriteId: 985e2d6279dbab2cfaf3b4d2457b14b3
-    - name: cheesecasumarzu_Frame_12
+      spriteId: c455e62f78a627868b774bd8bc2c790d
+    - name: ingredient_cheese_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -586,26 +586,26 @@ ScriptedImporter:
         y: 1
         width: 31
         height: 26
-      spriteId: 813ee0a8bc1af4d9a834d89e8f2b04fd
-    - name: cheesecasumarzu_Frame_13
+      spriteId: 0a923d05f675e0ba18aff258531f0cbe
+    - name: ingredient_cheese_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
         x: 1
         y: 3
         width: 31
-        height: 25
-      spriteId: b2c9ba22c402a02c49ab8114d37151b9
-    - name: cheesecasumarzu_Frame_14
+        height: 27
+      spriteId: 4cb579226d5cbfbfa91d8f109c1cd5de
+    - name: ingredient_cheese_Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 31
-        height: 27
-      spriteId: 0ba8125e81edab6718602f2fddb4d61c
-    - name: cheesecasumarzu_Frame_15
+        height: 30
+      spriteId: ddeec857fc04c705b9f3fc792e7ff949
+    - name: ingredient_cheese_Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -613,8 +613,8 @@ ScriptedImporter:
         y: 2
         width: 31
         height: 27
-      spriteId: a4d20f8225c7a188e93a8bae73e20214
-    - name: cheesecasumarzu_Frame_16
+      spriteId: aa91776839b4fb438bf946ad1f34f21b
+    - name: ingredient_cheese_Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -622,7 +622,7 @@ ScriptedImporter:
         y: 1
         width: 31
         height: 30
-      spriteId: 421c318e898c0b3b3ad2f3c9589fe2cd
+      spriteId: 736abaf82878681459941efb395aa147
     linkedCells: []
     parentIndex: -1
   platformSettings: []

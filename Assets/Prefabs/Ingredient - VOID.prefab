@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7486612693006875854}
   - component: {fileID: 7670985739114685057}
   m_Layer: 0
-  m_Name: cheese
+  m_Name: ingredient
   m_TagString: Ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,8 +76,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 318586559507186330, guid: 62cc9450c7abb2a74b768a7bb797e836, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -97,7 +97,7 @@ Animator:
   m_GameObject: {fileID: 3477910378098284394}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: -322340213040788998, guid: 62cc9450c7abb2a74b768a7bb797e836, type: 3}
+  m_Controller: {fileID: 4512058320076445340, guid: 42f0a65a022bae44986c172e6a08303c, type: 3}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -142,9 +142,9 @@ PolygonCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.51724136, y: -0.07692308}
-    oldSize: {x: 0.29, y: 0.26}
+    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
     newSize: {x: 0.29, y: 0.26}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -152,20 +152,20 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.059089284, y: 0.21941884}
-      - {x: -0.007182792, y: 0.22239423}
-      - {x: -0.057182807, y: 0.21622732}
-      - {x: -0.09008226, y: 0.20920925}
-      - {x: -0.121076286, y: 0.18868196}
-      - {x: -0.12199679, y: 0.14701922}
-      - {x: -0.098440334, y: 0.11772658}
-      - {x: -0.030834585, y: 0.08389349}
-      - {x: 0.03177361, y: 0.08173321}
-      - {x: 0.055597644, y: 0.09905347}
-      - {x: 0.08987914, y: 0.110302106}
-      - {x: 0.119879164, y: 0.15263595}
-      - {x: 0.11862159, y: 0.18730362}
-      - {x: 0.08239426, y: 0.20856118}
+    - - {x: -0.05061852, y: 0.0760673}
+      - {x: -0.07154472, y: 0.055638373}
+      - {x: -0.07427493, y: 0.050427347}
+      - {x: -0.07450807, y: 0.03622465}
+      - {x: -0.07490998, y: 0.017922223}
+      - {x: -0.07471802, y: -0.044320676}
+      - {x: -0.07452285, y: -0.05136448}
+      - {x: -0.03961121, y: -0.07847406}
+      - {x: 0.049326856, y: -0.07332046}
+      - {x: 0.07461363, y: -0.048686385}
+      - {x: 0.073788665, y: 0.045940198}
+      - {x: 0.05405449, y: 0.07218355}
+      - {x: 0.014764883, y: 0.077595815}
+      - {x: -0.02585078, y: 0.07691182}
   m_UseDelaunayMesh: 0
 --- !u!114 &7670985739114685057
 MonoBehaviour:
@@ -189,7 +189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4219428930794288161}
   m_Layer: 0
-  m_Name: Ingredient
+  m_Name: Ingredient - VOID
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
