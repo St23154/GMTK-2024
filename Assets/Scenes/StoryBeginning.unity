@@ -222,7 +222,7 @@ MonoBehaviour:
   textComponent: {fileID: 1154319680}
   lines:
   - Where am I?
-  - How did I get there?...
+  - How did I get here?...
   - Last thing I remember I was on a battlefield..
   - What hap..?!
   textSpeed: 0.1
