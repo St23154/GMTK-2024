@@ -16,7 +16,6 @@ public class Playermovement : MonoBehaviour
 
     private ZoomEffect zoom;
     private Animator myAnimator;
-    public GameObject particleTrail;
 
     [SerializeField] private Vector2 _groundCheckSize = new Vector2(0.49f, 0.03f);
 
@@ -71,11 +70,9 @@ public class Playermovement : MonoBehaviour
             }
             rb.velocity = new Vector2(horizontal * realSpeed, rb.velocity.y);
             if(horizontal != 0){
-                particleTrail.SetActive(true);
                 myAnimator.SetBool("IsMoving", true);
                 random = true;
             }else{
-                StartCoroutine(destroyParticle());
                 myAnimator.SetBool("IsMoving", false);
                 if (random){
                     random = false;
@@ -133,13 +130,5 @@ public class Playermovement : MonoBehaviour
         yield return new WaitForSeconds(2);
         Debug.Log("azz");
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
-    }
-
-    IEnumerator destroyParticle()
-    {
-        yield return new WaitForSeconds(3);
-        if (horizontal == 0){
-            particleTrail.SetActive(false);
-        }
     }
 }
