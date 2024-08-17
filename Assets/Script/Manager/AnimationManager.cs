@@ -11,10 +11,10 @@ public class AnimationManager : MonoBehaviour
     void Start()
     {
         myAnimator = GetComponent<Animator>();
-        AudioManager.instance.Play("Background");
+        AudioManager.instance.Play("Mysterious");
         myAnimator.SetTrigger("1");
         string methodName = functionNames[index];
-        Invoke(methodName, 2f); 
+        Invoke(methodName, 1.5f); 
     }
 
     public void NextIndex(float time)
@@ -31,7 +31,8 @@ public class AnimationManager : MonoBehaviour
 
     public void index2()
     {
-        AudioManager.instance.Play("Jump");
+        AudioManager.instance.Play("Chaos");
+        AudioManager.instance.Stop("Mysterious");
         myAnimator.SetTrigger("2");
         NextIndex(3f);
     } 
