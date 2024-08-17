@@ -50761,6 +50761,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 44cb8a3fb2ee41c4abd5c4de2c550b5a, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 44cb8a3fb2ee41c4abd5c4de2c550b5a, type: 3}
       propertyPath: m_LocalScale.x
       value: 30
@@ -50783,7 +50787,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 44cb8a3fb2ee41c4abd5c4de2c550b5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.08
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 44cb8a3fb2ee41c4abd5c4de2c550b5a, type: 3}
       propertyPath: m_LocalRotation.w
