@@ -5,7 +5,7 @@ public class AnimationManager : MonoBehaviour
 {
     private Animator myAnimator;
     public int index = 0;
-    private List<string> functionNames = new List<string> { "index1", "index2", "index3", "index4", "index5", "index6", "index7", "index8" };
+    private List<string> functionNames = new List<string> { "index1", "index2", "index3", "index4", "index5", "index6", "index7", "index8", "index9" };
     public List<GameObject> dialogueBoxes;
 
     void Start()
@@ -66,5 +66,10 @@ public class AnimationManager : MonoBehaviour
         AudioManager.instance.Play("Chaos");
         AudioManager.instance.Stop("Boss");
         dialogueBoxes[3].SetActive(true);
+    }
+
+    public void index8()
+    {
+
     }
 }
