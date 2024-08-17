@@ -9,6 +9,8 @@ public class AnimationManager : MonoBehaviour
     public GameObject prisonner;
     public GameObject mainChar;
     public GameObject Kamera;
+    public GameObject fissure;
+    public GameObject scientist;
     private List<string> functionNames = new List<string> { "index1", "index2", "index3", "index4", "index5", "index6", "index7", "index8", "index9" };
     public List<GameObject> dialogueBoxes;
 
@@ -17,12 +19,14 @@ public class AnimationManager : MonoBehaviour
         prisonner.SetActive(true);
         square.SetActive(false);
         mainChar.SetActive(false);
+        fissure.SetActive(false);
         myAnimator = GetComponent<Animator>();
         AudioManager.instance.Play("Mysterious");
         myAnimator.SetTrigger("1");
         string methodName = functionNames[index];
         Invoke(methodName, 1.5f); 
         Kamera.GetComponent<CameraTopDown>().enabled = false;
+        Kamera.GetComponent<Animator>().enabled = false;
         mainChar.GetComponent<PlayerCtrl>().enabled = false;
         gameObject.GetComponent<Animator>().enabled = true;
     }
@@ -84,6 +88,7 @@ public class AnimationManager : MonoBehaviour
         prisonner.SetActive(false);
         square.SetActive(true);
         mainChar.SetActive(true);
+        scientist.SetActive(false);
         myAnimator.SetTrigger("6");
         NextIndex(2.5f);
     }
@@ -92,6 +97,7 @@ public class AnimationManager : MonoBehaviour
     {
         Destroy(square);
         Kamera.GetComponent<CameraTopDown>().enabled = true;
+        Kamera.GetComponent<Animator>().enabled = true;
         mainChar.GetComponent<PlayerCtrl>().enabled = true;
         gameObject.GetComponent<Animator>().enabled = false;
     }

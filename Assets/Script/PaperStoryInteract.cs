@@ -6,6 +6,7 @@ public class PaperStoryInteract : MonoBehaviour
     public GameObject keyBind;
     public GameObject paper;
     public ZoomEffect zoomScript;
+    public GameObject fissure;
     private bool playerHere = false;
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -28,6 +29,7 @@ public class PaperStoryInteract : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && playerHere){
             zoomScript.canMove = false;
+            fissure.SetActive(true);
             paper.SetActive(true);
             Destroy(gameObject);
         }
