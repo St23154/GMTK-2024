@@ -24,6 +24,11 @@ public class Playermovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+    private float coyoteTime = 0.2f; // Time after leaving ground where jump is still allowed
+    private float coyoteTimeCounter;
+    private float jumpBufferTime = 0.2f; // Time window where a jump input is stored
+    private float jumpBufferCounter;
+
 
     void Start()
     {
@@ -49,11 +54,41 @@ public class Playermovement : MonoBehaviour
             }
         }
 
-        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f){
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
-        }
+       
+         // Coyote time handling
+            if (IsGrounded())
+            {
+                coyoteTimeCounter = coyoteTime;
+            }
+            else
+            {
+                coyoteTimeCounter -= Time.deltaTime;
+            }
 
-        Flip();
+            // Jump buffer handling
+            if (Input.GetButtonDown("Jump"))
+            {
+                jumpBufferCounter = jumpBufferTime;
+            }
+            else
+            {
+                jumpBufferCounter -= Time.deltaTime;
+            }
+
+            // Jump if within coyote time or buffered jump
+            if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, realJumpingPower);
+                jumpBufferCounter = 0f; // Reset jump buffer
+            }
+
+            // Smooth jump cut-off
+            if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.7f);
+            }
+
+        Flip(); 
     }
 
 
@@ -66,7 +101,7 @@ public class Playermovement : MonoBehaviour
                 rb.gravityScale = 0.1f;
             }else{
                 realSpeed = speed;
-                rb.gravityScale = 1f;
+                rb.gravityScale = IsGrounded() ? 1f : 2.5f; // Increased gravity when not grounded 
             }
             rb.velocity = new Vector2(horizontal * realSpeed, rb.velocity.y);
             if(horizontal != 0){
