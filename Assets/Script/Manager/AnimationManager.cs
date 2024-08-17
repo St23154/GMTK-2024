@@ -32,6 +32,7 @@ public class AnimationManager : MonoBehaviour
     public void index2()
     {
         AudioManager.instance.Play("Jump");
+        myAnimator.SetTrigger("2");
         NextIndex(3f);
     } 
 
