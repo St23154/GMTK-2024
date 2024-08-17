@@ -15,15 +15,18 @@ public class FollowTarget : MonoBehaviour
     {
         if (target != null)
         {
-            // Calculate the direction to the target
-            Vector3 direction = target.position - transform.position;
-            float distance = direction.magnitude;
+            // Calculate the direction to the target only on the X-axis
+            float directionX = target.position.x - transform.position.x;
+            float distance = Mathf.Abs(directionX);
 
-            // If the object is far enough from the target, move towards it
+            // If the object is far enough from the target on the X-axis, move towards it
             if (distance > stopDistance)
             {
-                direction.Normalize();
-                transform.position += direction * speed * Time.deltaTime;
+                // Normalize direction on X-axis
+                directionX = Mathf.Sign(directionX);
+
+                // Move the object towards the target on the X-axis
+                transform.position += new Vector3(directionX * speed * Time.deltaTime, 0, 0);
             }
         }
     }
