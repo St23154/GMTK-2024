@@ -6,6 +6,8 @@ TagManager:
   tags:
   - ground
   - Enemy
+  - Ingredient
+  - tallPotion
   layers:
   - Default
   - TransparentFX

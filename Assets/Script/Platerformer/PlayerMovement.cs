@@ -65,6 +65,7 @@ public class Playermovement : MonoBehaviour
                 rb.gravityScale = 0.1f;
             }else{
                 realSpeed = speed;
+                rb.gravityScale = 1f;
             }
             rb.velocity = new Vector2(horizontal * realSpeed, rb.velocity.y);
             if(horizontal != 0){
@@ -98,16 +99,24 @@ public class Playermovement : MonoBehaviour
         }
     }
 
-
-
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Enemy"))
-        {
+        if (other.gameObject.CompareTag("Enemy")){
             reloadScene();
             Die();
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("tallPotion")){
+            if (zoom.mini){
+                Destroy(other.gameObject);
+                zoom.Grand();
+            }
+        }
+    }
+
 
     public void Die()
     {
