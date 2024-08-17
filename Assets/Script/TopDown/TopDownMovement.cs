@@ -24,7 +24,6 @@ public class PlayerCtrl : MonoBehaviour
         }
         float moveX = Input.GetAxis("Horizontal");
         float moveY = Input.GetAxis("Vertical");
-
         movement = new Vector2(moveX, moveY);
 
         rb.velocity = movement * realSpeed;

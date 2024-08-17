@@ -3,14 +3,14 @@ using UnityEngine;
 public class SIMPLE_PLayermovement : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 8f;
-
+    public float speed = 8f;
     private float realSpeed;
     public float jumpingPower = 16f;
     private float realJumpingPower;
+    
     private bool isFacingRight = true;
 
-    public ZoomEffect zoom;
+    private ZoomEffect zoom;
 
 
     [SerializeField] private Rigidbody2D rb;
@@ -20,6 +20,7 @@ public class SIMPLE_PLayermovement : MonoBehaviour
 
     void Start()
     {
+        zoom = GetComponent<ZoomEffect>();
        realSpeed = speed; 
        realJumpingPower = jumpingPower;
     }
