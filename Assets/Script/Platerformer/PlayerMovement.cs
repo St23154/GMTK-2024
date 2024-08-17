@@ -128,6 +128,7 @@ public class Playermovement : MonoBehaviour
     IEnumerator reloadScene()
     {
         yield return new WaitForSeconds(2);
+        Debug.Log("azz");
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
     }
 }
