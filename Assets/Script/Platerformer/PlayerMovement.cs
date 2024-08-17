@@ -11,6 +11,7 @@ public class Playermovement : MonoBehaviour
     private float realJumpingPower;
 
     private bool isFacingRight = true;
+    private bool random = false;
 
     private ZoomEffect zoom;
     private Animator myAnimator;
@@ -66,8 +67,15 @@ public class Playermovement : MonoBehaviour
             rb.velocity = new Vector2(horizontal * realSpeed, rb.velocity.y);
             if(horizontal != 0){
                 myAnimator.SetBool("IsMoving", true);
+                random = true;
             }else{
                 myAnimator.SetBool("IsMoving", false);
+                if (random){
+                    random = false;
+                    if (Random.Range(0,8) == 3){
+                        myAnimator.SetTrigger("Twist");
+                    }
+                }
             }
         }else{
             myAnimator.SetBool("IsMoving", false);
