@@ -30,6 +30,8 @@ public class Playermovement : MonoBehaviour
     private float jumpBufferCounter;
 
 
+
+
     void Start()
     {
         zoom = GetComponent<ZoomEffect>();
@@ -148,7 +150,7 @@ public class Playermovement : MonoBehaviour
         if (other.gameObject.CompareTag("tallPotion")){
             if (zoom.mini){
                 Destroy(other.gameObject);
-                zoom.Grand();
+                //zoom.Grand();
             }
         }
     }
