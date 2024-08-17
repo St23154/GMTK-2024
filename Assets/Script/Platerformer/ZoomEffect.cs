@@ -25,9 +25,8 @@ public class ZoomEffect : MonoBehaviour
             {
                 transform.localScale = Vector3.Lerp(transform.localScale, targetScale, speed * Time.deltaTime);
                 transform.position = Vector3.Lerp(transform.position, targetPos, speed * Time.deltaTime);
-                if (Vector3.Distance(transform.position, targetPos) < closeEnough || Vector3.Distance(transform.localScale, targetScale) < closeEnough){
+                if (Vector3.Distance(transform.localScale, targetScale) < closeEnough){
                     transform.position = targetPos;
-                    Debug.Log("aa");
                     transform.localScale = targetScale;
                     isAnimating = false;
                 }
@@ -35,9 +34,8 @@ public class ZoomEffect : MonoBehaviour
             }else{
                 transform.localScale = Vector3.Lerp(transform.localScale, originalScale, speed * Time.deltaTime);
                 transform.position = Vector3.Lerp(transform.position, targetPos, speed * Time.deltaTime);
-                if (Vector3.Distance(transform.position, targetPos) < closeEnough || Vector3.Distance(transform.localScale, originalScale) < closeEnough){
+                if (Vector3.Distance(transform.localScale, originalScale) < closeEnough){
                     transform.position = targetPos;
-                    Debug.Log("zz");
                     isAnimating = false;
                     transform.localScale = originalScale;
                 }

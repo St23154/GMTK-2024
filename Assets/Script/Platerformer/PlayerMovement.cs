@@ -6,7 +6,7 @@ public class SIMPLE_PLayermovement : MonoBehaviour
     private float speed = 8f;
 
     private float realSpeed;
-    private float jumpingPower = 16f;
+    public float jumpingPower = 16f;
     private float realJumpingPower;
     private bool isFacingRight = true;
 

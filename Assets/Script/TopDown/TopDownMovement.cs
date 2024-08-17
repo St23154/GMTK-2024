@@ -1,22 +1,32 @@
+using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
 
 public class PlayerCtrl : MonoBehaviour
 {
-    public float movSpeed;
-    float speedX, speedY;
+    public float movSpeed = 5f;
+    private float realSpeed;
+    private ZoomEffect zoomScript;
     Rigidbody2D rb;
+    Vector2 movement;
 
-    // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();  
+        rb = GetComponent<Rigidbody2D>();
+        zoomScript = GetComponent<ZoomEffect>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        speedX = Input.GetAxisRaw("Horizontal") * movSpeed;
-        speedY = Input.GetAxisRaw("Vertical") * movSpeed;
-        rb.velocity = new Vector2(speedX, speedY).normalized * movSpeed;
+        if (zoomScript.mini){
+            realSpeed = movSpeed * 0.005f;
+        }else{
+            realSpeed = movSpeed;
+        }
+        float moveX = Input.GetAxis("Horizontal");
+        float moveY = Input.GetAxis("Vertical");
+
+        movement = new Vector2(moveX, moveY);
+
+        rb.velocity = movement * realSpeed;
     }
 }
