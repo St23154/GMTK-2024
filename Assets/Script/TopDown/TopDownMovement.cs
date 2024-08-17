@@ -18,7 +18,7 @@ public class PlayerCtrl : MonoBehaviour
     void FixedUpdate()
     {
         if (zoomScript.mini){
-            realSpeed = movSpeed * 0.005f;
+            realSpeed = movSpeed * 0.03f;
         }else{
             realSpeed = movSpeed;
         }
