@@ -721,6 +721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2a4b085b99741f4987f43d102c9a78b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: -10}
   target: {fileID: 1724806641}
 --- !u!95 &711607203
 Animator:

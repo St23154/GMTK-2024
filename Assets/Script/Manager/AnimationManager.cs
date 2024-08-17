@@ -6,7 +6,7 @@ public class AnimationManager : MonoBehaviour
 {
     private Animator myAnimator;
     public int index = 0;
-    private List<string> functionNames = new List<string> { "index1", "index2", "index3" };
+    private List<string> functionNames = new List<string> { "index1", "index2", "index3", "index4" };
 
     void Start()
     {
@@ -34,7 +34,6 @@ public class AnimationManager : MonoBehaviour
 
     public void index3()
     {
-        Debug.Log("Executing index3");
-        // Code spécifique à index3
+
     }
 }
