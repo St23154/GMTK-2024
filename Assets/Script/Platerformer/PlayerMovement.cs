@@ -178,6 +178,8 @@ public class Playermovement : MonoBehaviour
     {
         myAnimator.SetTrigger("Die");
         zoom.canMove = false;
+        transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z);
+        gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2 (0f,0f);
     }
 
     IEnumerator reloadScene()
