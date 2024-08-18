@@ -38,7 +38,8 @@ public class ZoomEffect : MonoBehaviour
                 UpdateSmallPotionUI(1);
                 jumpMultiplier += 0.01f;
                 ActivateParticles();
-                float newScale = Mathf.Max(currentScale.x - scaleFactor * sizeChangeSpeed*0.1f, minSize);
+                Debug.Log(Time.deltaTime);
+                float newScale = Mathf.Max(currentScale.x - scaleFactor * sizeChangeSpeed*Time.deltaTime, minSize);
                 Debug.Log(currentScale);
                 currentScale = new Vector3(newScale, newScale, newScale);
                 Debug.Log(currentScale);
@@ -57,7 +58,8 @@ public class ZoomEffect : MonoBehaviour
                 UpdateTallPotionUI(1);
                 jumpMultiplier -= 0.01f;
                 ActivateParticles();
-                float newScale = currentScale.x + scaleFactor * sizeChangeSpeed * 0.1f;
+                Debug.Log(Time.deltaTime);
+                float newScale = currentScale.x + scaleFactor * sizeChangeSpeed * Time.deltaTime;
                 currentScale = new Vector3(newScale, newScale, newScale);
                 transform.localScale = currentScale;
             }
