@@ -57,6 +57,7 @@ public class Playermovement : MonoBehaviour
             // }
 
             if (Input.GetButtonDown("Jump") && IsGrounded()){
+                AudioManager.instance.Play("Jump");
                 rb.velocity = new Vector2(rb.velocity.x, realJumpingPower);
             }
         }
