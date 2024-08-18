@@ -13,6 +13,7 @@ public class AnimationManager : MonoBehaviour
     public GameObject fissure;
     public GameObject scientist;
     public GameObject door;
+    private bool once01;
     private List<string> functionNames = new List<string> { "index1", "index2", "index3", "index4", "index5", "index6", "index7", "index8", "index9", "index10", "index11", "index12" };
     public List<GameObject> dialogueBoxes;
 
@@ -107,8 +108,11 @@ public class AnimationManager : MonoBehaviour
 
     public void index10()
     {
-        Debug.Log("ok");
-        mainChar.GetComponent<PlayerCtrl>().enabled = false;
+        if (once01) {
+            Debug.Log("index10() started");
+            mainChar.GetComponent<PlayerCtrl>().enabled = false;
+            once01 = false;
+        }
         NextIndex(2);
     }
 
