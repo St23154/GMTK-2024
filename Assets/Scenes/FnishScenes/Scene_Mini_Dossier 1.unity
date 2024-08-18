@@ -9444,6 +9444,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 377960251972743984, guid: 26600d788bd2df04abdf068ce7390b78, type: 3}
+      propertyPath: objectToShow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423037631912084319, guid: 26600d788bd2df04abdf068ce7390b78, type: 3}
+      propertyPath: TallBarFill
+      value: 
+      objectReference: {fileID: 1488596115}
+    - target: {fileID: 3423037631912084319, guid: 26600d788bd2df04abdf068ce7390b78, type: 3}
+      propertyPath: SmallBarFill
+      value: 
+      objectReference: {fileID: 1488596113}
     - target: {fileID: 4120231904827234174, guid: 26600d788bd2df04abdf068ce7390b78, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.53
