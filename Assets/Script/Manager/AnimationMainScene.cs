@@ -5,6 +5,7 @@ public class AnimationMainScene : MonoBehaviour
 {
     private Animator myAnimator;
     public int index = 0;
+    private bool once = true;
     public GameObject mainChar;
     public GameObject Kamera;
     private List<string> functionNames = new List<string> { "index1", "index2", "index3", "index4", "index5", "index6", "index7", "index8", "index9" };
@@ -31,8 +32,10 @@ public class AnimationMainScene : MonoBehaviour
 
     public void index1()
     {
-        myAnimator.SetTrigger("1");
-        NextIndex(14f);
+        if (once){
+            once = false;
+            NextIndex(14f);
+        }
     }
 
     public void index2()
