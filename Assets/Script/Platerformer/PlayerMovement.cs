@@ -182,6 +182,7 @@ public class Playermovement : MonoBehaviour
         Rigidbody2D rb = gameObject.GetComponent<Rigidbody2D>();
         rb.velocity = Vector2.zero;
         rb.constraints = RigidbodyConstraints2D.FreezePosition;
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 
     IEnumerator reloadScene()
