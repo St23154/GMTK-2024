@@ -5,6 +5,7 @@ public class PlayerCtrl : MonoBehaviour
 {
     public float movSpeed;
     private float realSpeed;
+    private bool random;
     private ZoomEffectTopDown zoomScript;
     Rigidbody2D rb;
     private Animator myAnimator;
@@ -35,6 +36,20 @@ public class PlayerCtrl : MonoBehaviour
             myAnimator.SetFloat("x", moveX);
             
             movement = new Vector2(moveX, moveY);
+            
+            if (moveX == 0 && moveY == 0){
+                myAnimator.SetBool("Idle", true);
+                if (random){
+                    random = false;
+                    if (Random.Range(0,4) == 1){
+                        Debug.Log("twist");
+                        myAnimator.SetTrigger("Twist");
+                    }
+                }
+            }else{
+                myAnimator.SetBool("Idle", false);
+                random = true;
+            }
             
             if (movement.magnitude > 1){
                 movement.Normalize();
