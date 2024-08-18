@@ -10277,7 +10277,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ne Pas S'approcher de la fissure dans la salle en haut!
+  m_text: I heard some noise coming from that hole inside the wall. Frank even got
+    bitten by a rat last day! Please do not approach it before the anti-pest team
+    has come
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
