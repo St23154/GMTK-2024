@@ -33,8 +33,9 @@ public class ZoomEffect : MonoBehaviour
 
         if (Input.GetMouseButton(1))
         {
-            if (currentScale.x > minSize)
+            if (currentScale.x > minSize && potionSmall > 0)
             {
+                UpdateSmallPotionUI(1);
                 jumpMultiplier += 0.01f;
                 ActivateParticles();
                 float newScale = Mathf.Max(currentScale.x - scaleFactor * sizeChangeSpeed*0.1f, minSize);
@@ -51,8 +52,9 @@ public class ZoomEffect : MonoBehaviour
 
         if (Input.GetMouseButton(0))
         {
-            if (currentScale.x < maxSize)
+            if (currentScale.x < maxSize && potionTall>0)
             {
+                UpdateTallPotionUI(1);
                 jumpMultiplier -= 0.01f;
                 ActivateParticles();
                 float newScale = currentScale.x + scaleFactor * sizeChangeSpeed * 0.1f;
