@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class ZoomEffect : MonoBehaviour
 {
-    public float scaleFactor = 0.5f;
+    public float scaleFactor = 0.001f;
     public float minSize = 0.1f;
-    public float maxSize = 5.0f;
+    public float maxSize = 3.0f;
     public float potionTall = 100f;
     public float potionSmall = 100f;
     private float maxTall;
@@ -18,7 +18,8 @@ public class ZoomEffect : MonoBehaviour
     public List<GameObject> particles;
    
     public bool canMove = true;
-    public float sizeChangeSpeed = 1f;
+    public float sizeChangeSpeed = 0.01f;
+    public float jumpMultiplier = 1;
 
     void Start()
     {
@@ -34,8 +35,9 @@ public class ZoomEffect : MonoBehaviour
         {
             if (currentScale.x > minSize)
             {
+                jumpMultiplier += 0.01f;
                 ActivateParticles();
-                float newScale = Mathf.Max(currentScale.x - scaleFactor * sizeChangeSpeed * 1, minSize);
+                float newScale = Mathf.Max(currentScale.x - scaleFactor * sizeChangeSpeed*0.1f, minSize);
                 Debug.Log(currentScale);
                 currentScale = new Vector3(newScale, newScale, newScale);
                 Debug.Log(currentScale);
@@ -51,8 +53,9 @@ public class ZoomEffect : MonoBehaviour
         {
             if (currentScale.x < maxSize)
             {
+                jumpMultiplier -= 0.01f;
                 ActivateParticles();
-                float newScale = currentScale.x + scaleFactor * sizeChangeSpeed * 1;
+                float newScale = currentScale.x + scaleFactor * sizeChangeSpeed * 0.1f;
                 currentScale = new Vector3(newScale, newScale, newScale);
                 transform.localScale = currentScale;
             }
