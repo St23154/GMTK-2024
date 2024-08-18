@@ -4,7 +4,7 @@ This is a game developped in 48h (16th to 18th) for the 96h Game Jam (GMTK 2024 
 
 ## 🖥️ Where to play?
 You can either build the script by yourself using Unity or you can play it on itch.io
-https://github.com/St23154/GMTK-2024
+https://pepsicoca.itch.io/katom
 
 ## 📚 What is it about?
 You are a soldier on the battlefield who got knockout during the war. When you wake up, you find yourself in a strange laboratory where a scientist decides to inject you a green liquid in your veins. You can't resist and collapse again.
