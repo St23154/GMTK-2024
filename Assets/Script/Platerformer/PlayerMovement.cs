@@ -18,6 +18,7 @@ public class Playermovement : MonoBehaviour
     private Animator myAnimator;
      public GameObject objectToHide;
      public GameObject objectToShow;
+     public GameObject toile;
 
     [SerializeField] public Vector2 _groundCheckSize;
 
@@ -175,6 +176,7 @@ public class Playermovement : MonoBehaviour
         if (other.gameObject.CompareTag("Ingredient")){
             StartCoroutine(Changement_DE_Scene());
         }
+
     }
     IEnumerator Changement_DE_Scene(){
         yield return new WaitForSeconds(1);
