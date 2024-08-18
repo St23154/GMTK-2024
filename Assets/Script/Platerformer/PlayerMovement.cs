@@ -173,7 +173,7 @@ public class Playermovement : MonoBehaviour
     }
     IEnumerator Changement_DE_Scene(){
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("TopDownMainScene");
+        SceneManager.LoadScene("Center");
     }
     private void OnTriggerEnter2D(Collider2D other)
     {

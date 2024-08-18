@@ -5,16 +5,11 @@ public class DoorsManager : MonoBehaviour
 {
     public void Door1()
     {
-        //Load scene
-    }
-
-    public void Door2()
-    {
-        //Load scene
+        SceneManager.LoadScene("Scene_Mini_Dossier 1");
     }
 
     public void Door3()
     {
-        //Load scene
+        SceneManager.LoadScene("CoffreFort");
     }
 }
