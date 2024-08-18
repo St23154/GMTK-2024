@@ -9,12 +9,12 @@ public class ZoomEffect : MonoBehaviour
     public float scaleFactor = 0.001f;
     public float minSize = 0.1f;
     public float maxSize = 3.0f;
-    static public float potionTall = 100f;
-    static public float potionSmall = 100f;
-    static public float maxTall;
-    static public float maxSmall;
-    static public Image TallBarFill;
-    static public Image SmallBarFill;
+    public float potionTall = 100f;
+    public float potionSmall = 100f;
+    public float maxTall;
+    public float maxSmall;
+    public Image TallBarFill;
+    public Image SmallBarFill;
     public bool mini = false;
     public List<GameObject> particles;
    
@@ -100,14 +100,14 @@ public class ZoomEffect : MonoBehaviour
         DesactivateParticles();
     }
 
-    static public void UpdateTallPotionUI(float amountToDecrease)
+    public void UpdateTallPotionUI(float amountToDecrease)
     {
         potionTall -= amountToDecrease;
         if(potionTall < 0){ potionTall = 0; }
         if(TallBarFill != null){ TallBarFill.fillAmount = potionTall/maxTall; }
     }
 
-    static public void UpdateSmallPotionUI(float amountToDecrease)
+    public void UpdateSmallPotionUI(float amountToDecrease)
     {
         potionSmall -= amountToDecrease;
         if(potionSmall < 0){ potionSmall = 0; }
