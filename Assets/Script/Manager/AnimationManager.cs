@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AnimationManager : MonoBehaviour
 {
@@ -12,7 +13,8 @@ public class AnimationManager : MonoBehaviour
     public GameObject fissure;
     public GameObject scientist;
     public GameObject door;
-    private List<string> functionNames = new List<string> { "index1", "index2", "index3", "index4", "index5", "index6", "index7", "index8", "index9" };
+    private bool once01;
+    private List<string> functionNames = new List<string> { "index1", "index2", "index3", "index4", "index5", "index6", "index7", "index8", "index9", "index10", "index11", "index12" };
     public List<GameObject> dialogueBoxes;
 
     void Start()
@@ -98,10 +100,24 @@ public class AnimationManager : MonoBehaviour
 
     public void index9()
     {
-        Destroy(square);
         Kamera.GetComponent<CameraTopDown>().enabled = true;
         Kamera.GetComponent<Animator>().enabled = true;
         mainChar.GetComponent<PlayerCtrl>().enabled = true;
         gameObject.GetComponent<Animator>().enabled = false;
+    }
+
+    public void index10()
+    {
+        if (once01) {
+            Debug.Log("index10() started");
+            mainChar.GetComponent<PlayerCtrl>().enabled = false;
+            once01 = false;
+        }
+        NextIndex(2);
+    }
+
+    public void index11()
+    {
+        SceneManager.LoadScene("TheRatHoll");
     }
 }
