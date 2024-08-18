@@ -167,8 +167,14 @@ public class Playermovement : MonoBehaviour
         if (other.gameObject.CompareTag("troudstuyaux") && zoom.jumpMultiplier > 1.1){
             SceneManager.LoadScene("Scene_Dossier");
         }
+        if (other.gameObject.CompareTag("Ingredient")){
+            StartCoroutine(Changement_DE_Scene());
+        }
     }
-
+    IEnumerator Changement_DE_Scene(){
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("TopDownMainScene");
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("tallPotion")){
