@@ -173,7 +173,7 @@ public class Playermovement : MonoBehaviour
     }
     IEnumerator Changement_DE_Scene(){
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("TopDownMainScene");
+        SceneManager.LoadScene("Center");
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -193,6 +193,7 @@ public class Playermovement : MonoBehaviour
 
     public void Die()
     {
+        AudioManager.instance.Play("Death");
         myAnimator.SetTrigger("Die");
         zoom.canMove = false;
         transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z);

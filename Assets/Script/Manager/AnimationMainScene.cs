@@ -32,7 +32,7 @@ public class AnimationMainScene : MonoBehaviour
     public void index1()
     {
         myAnimator.SetTrigger("1");
-        NextIndex(19f);
+        NextIndex(14f);
     }
 
     public void index2()
