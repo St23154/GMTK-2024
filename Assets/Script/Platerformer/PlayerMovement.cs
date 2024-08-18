@@ -16,6 +16,8 @@ public class Playermovement : MonoBehaviour
 
     private ZoomEffect zoom;
     private Animator myAnimator;
+     public GameObject objectToHide;
+     public GameObject objectToShow;
 
     [SerializeField] private Vector2 _groundCheckSize = new Vector2(0.49f, 0.03f);
 
@@ -39,6 +41,7 @@ public class Playermovement : MonoBehaviour
         myAnimator = GetComponent<Animator>();
         realSpeed = speed; 
         realJumpingPower = jumpingPower;
+        objectToShow.SetActive(false);
     }
 
     void Update()
@@ -144,6 +147,15 @@ public class Playermovement : MonoBehaviour
             StartCoroutine(reloadScene());
             Die();
         }
+
+        if (other.gameObject.CompareTag("document")){
+            StartCoroutine(reloadScene());
+            Die();
+        }
+
+        if (other.gameObject.CompareTag("troudstuyaux") && zoom.jumpMultiplier > 1.1){
+            SceneManager.LoadScene("Scene_Dossier");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -153,6 +165,11 @@ public class Playermovement : MonoBehaviour
                 Destroy(other.gameObject);
                 //zoom.Grand();
             }
+        }
+
+        if (other.gameObject.CompareTag("sortie_tuyaux")){
+             objectToHide.SetActive(false);
+             objectToShow.SetActive(true);
         }
     }
 

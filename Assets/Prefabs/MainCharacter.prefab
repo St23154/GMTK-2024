@@ -4861,7 +4861,7 @@ Transform:
   m_GameObject: {fileID: 5743487723111650337}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -3.67, y: 2.29, z: 0}
+  m_LocalPosition: {x: -6.53, y: -2.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4912,12 +4912,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 67dcf1f2c782b014cb077651486c9482, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 37e5d854e11349a4586ea0af7a754984, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 2.1333334, y: 2.1333334}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4955,18 +4955,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.051968575, y: -0.9454698}
+  m_Offset: {x: -0.051968575, y: -0.5901803}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.2, y: 3.2}
-    newSize: {x: 1, y: 2}
+    oldSize: {x: 2.1333334, y: 2.1333334}
+    newSize: {x: 2.1333334, y: 2.1333334}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2588911, y: 1.2534429}
+  m_Size: {x: 1.2588911, y: 0.888551}
   m_EdgeRadius: 0
 --- !u!50 &6598070157975179510
 Rigidbody2D:
@@ -5010,12 +5010,17 @@ MonoBehaviour:
   scaleFactor: 0.5
   minSize: 0.1
   maxSize: 5
+  potionTall: 100
+  potionSmall: 100
+  TallBarFill: {fileID: 0}
+  SmallBarFill: {fileID: 0}
   mini: 0
   particles:
   - {fileID: 7522539683037194551}
   - {fileID: 7717229523685709579}
   canMove: 1
   sizeChangeSpeed: 1
+  jumpMultiplier: 1
 --- !u!114 &4917363349525017464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14742,7 +14747,7 @@ Transform:
   m_GameObject: {fileID: 8241317067877784181}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.684, z: 0}
+  m_LocalPosition: {x: 0, y: -1.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

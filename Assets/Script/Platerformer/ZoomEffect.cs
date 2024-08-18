@@ -31,7 +31,7 @@ public class ZoomEffect : MonoBehaviour
     {
         Vector3 currentScale = transform.localScale;
 
-        if (Input.GetKey(KeyCode.T))
+        if (Input.GetMouseButton(1))
         {
             if (currentScale.x > minSize)
             {
@@ -49,7 +49,7 @@ public class ZoomEffect : MonoBehaviour
             }
         }
 
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetMouseButton(0))
         {
             if (currentScale.x < maxSize)
             {
