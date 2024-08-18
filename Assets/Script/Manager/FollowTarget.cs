@@ -2,6 +2,11 @@ using UnityEngine;
 
 public class FollowTarget : MonoBehaviour
 {
+    void Start()
+    {
+        AudioManager.instance.Stop("Chaos");
+        AudioManager.instance.Play("Bg");
+    }
     // The target the object should follow (e.g., the player)
     public Transform target;
 

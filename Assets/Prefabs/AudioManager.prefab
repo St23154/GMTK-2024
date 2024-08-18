@@ -108,3 +108,10 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: Bg
+    clip: {fileID: 8300000, guid: 70326aa15e0b4aa41bdd23c910344745, type: 3}
+    mixer: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
