@@ -106,14 +106,14 @@ public class ZoomEffect : MonoBehaviour
     {
         potionTall -= amountToDecrease;
         if(potionTall < 0){ potionTall = 0; }
-        TallBarFill.fillAmount = potionTall/maxTall;
+        if(TallBarFill != null){ TallBarFill.fillAmount = potionTall/maxTall; }
     }
 
     public void UpdateSmallPotionUI(float amountToDecrease)
     {
         potionSmall -= amountToDecrease;
         if(potionSmall < 0){ potionSmall = 0; }
-        SmallBarFill.fillAmount = potionSmall/maxSmall;        
+        if(SmallBarFill != null){ SmallBarFill.fillAmount = potionSmall/maxSmall; }     
     }
 
 }
