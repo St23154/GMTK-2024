@@ -26,8 +26,9 @@ public class FissureInteract : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player") && zoomScript.mini == true){
-            Invoke("LaunchNextScene", 2f);
+        if (other.gameObject.CompareTag("Player") && zoomScript.mini == true && once == true){
+            once = false;
+            animManScript.index10();
         }
     }
 
@@ -35,14 +36,6 @@ public class FissureInteract : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && playerHere){
             zoomScript.Mini();
-        }
-    }
-
-    void LaunchNextScene()
-    {
-        if (once){
-            animManScript.index10();
-            once = false;
         }
     }
 }

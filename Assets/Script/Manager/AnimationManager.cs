@@ -107,9 +107,8 @@ public class AnimationManager : MonoBehaviour
 
     public void index10()
     {
+        Debug.Log("ok");
         mainChar.GetComponent<PlayerCtrl>().enabled = false;
-        gameObject.GetComponent<Animator>().enabled = true;
-        myAnimator.SetTrigger("7");
         NextIndex(2);
     }
 
