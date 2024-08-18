@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/FnishScenes/Center.unity
     guid: ac1e7d6ae05da5d40bff343b37452107
   - enabled: 1
+    path: Assets/Scenes/FnishScenes/TopDownCenterSpawn.unity
+    guid: 4404b626a649ab84d8cffc3202d75ee5
+  - enabled: 1
     path: Assets/Scenes/FnishScenes/Scene_Mini_Dossier 1.unity
     guid: e21ec53410c982d4790f5751322ef9de
   - enabled: 1
