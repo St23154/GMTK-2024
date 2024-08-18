@@ -27,8 +27,9 @@ public class ZoomEffect : MonoBehaviour
         maxSmall = potionSmall;
     }
 
-    void Update()
+    void FixedUpdate()
     {
+    
         Vector3 currentScale = transform.localScale;
 
         if (Input.GetMouseButton(1))
