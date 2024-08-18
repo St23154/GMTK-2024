@@ -5019,9 +5019,11 @@ MonoBehaviour:
   particles:
   - {fileID: 7522539683037194551}
   - {fileID: 7717229523685709579}
+  ground: {fileID: 4917363349525017464}
   canMove: 1
   sizeChangeSpeed: 1
   jumpMultiplier: 1
+  groundMultiplier: 1
 --- !u!114 &4917363349525017464
 MonoBehaviour:
   m_ObjectHideFlags: 0
