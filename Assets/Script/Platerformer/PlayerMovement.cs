@@ -8,7 +8,7 @@ public class Playermovement : MonoBehaviour
     private float horizontal;
     public float speed = 8f;
     private float realSpeed;
-    public float jumpingPower = 16f;
+    public float jumpingPower = 11f;
     private float realJumpingPower;
 
     private bool isFacingRight = true;
@@ -34,6 +34,7 @@ public class Playermovement : MonoBehaviour
 
     void Start()
     {
+        jumpingPower = 11f;
         zoom = GetComponent<ZoomEffect>();
         myAnimator = GetComponent<Animator>();
         realSpeed = speed; 
@@ -45,11 +46,11 @@ public class Playermovement : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
 
         if (zoom.canMove){
-            if(zoom.mini){
-                realJumpingPower = jumpingPower * 0.3f;
-            }else {
-                realJumpingPower = jumpingPower;
-            }
+            // if(zoom.mini){
+                realJumpingPower = jumpingPower * zoom.jumpMultiplier;
+            // }else {
+            //     realJumpingPower = jumpingPower;
+            // }
 
             if (Input.GetButtonDown("Jump") && IsGrounded()){
                 rb.velocity = new Vector2(rb.velocity.x, realJumpingPower);
