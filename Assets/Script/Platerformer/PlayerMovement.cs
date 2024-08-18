@@ -61,6 +61,10 @@ public class Playermovement : MonoBehaviour
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.R)){
+            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+         }
+
        
          // Coyote time handling
             if (IsGrounded())
