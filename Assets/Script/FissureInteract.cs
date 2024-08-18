@@ -4,7 +4,9 @@ public class FissureInteract : MonoBehaviour
 {
     public GameObject keyBind;
     public ZoomEffectTopDown zoomScript;
+    public AnimationManager animManScript;
     private bool playerHere = false;
+    private bool once = true;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -25,7 +27,7 @@ public class FissureInteract : MonoBehaviour
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player") && zoomScript.mini == true){
-            LaunchNextScene();
+            Invoke("LaunchNextScene", 2f);
         }
     }
 
@@ -38,6 +40,9 @@ public class FissureInteract : MonoBehaviour
 
     void LaunchNextScene()
     {
-        Debug.Log("Next Scene");
+        if (once){
+            animManScript.index10();
+            once = false;
+        }
     }
 }
