@@ -39,11 +39,8 @@ public class ZoomEffect : MonoBehaviour
                 UpdateSmallPotionUI(0.5f);
                 jumpMultiplier += 0.01f;
                 ActivateParticles();
-                Debug.Log(Time.deltaTime);
                 float newScale = Mathf.Max(currentScale.x - scaleFactor * sizeChangeSpeed*0.05f, minSize);
-                Debug.Log(currentScale);
                 currentScale = new Vector3(newScale, newScale, newScale);
-                Debug.Log(currentScale);
                 transform.localScale = currentScale;
             }
 
