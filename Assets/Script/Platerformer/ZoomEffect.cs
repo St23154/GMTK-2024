@@ -16,10 +16,11 @@ public class ZoomEffect : MonoBehaviour
     public Image SmallBarFill;
     public bool mini = false;
     public List<GameObject> particles;
-   
+   public Playermovement ground;
     public bool canMove = true;
     public float sizeChangeSpeed = 0.01f;
     public float jumpMultiplier = 1;
+    public float groundMultiplier = 1;
 
     void Start()
     {
@@ -38,6 +39,7 @@ public class ZoomEffect : MonoBehaviour
             {
                 UpdateSmallPotionUI(0.5f);
                 jumpMultiplier += 0.01f;
+                ground._groundCheckSize.x -= scaleFactor * sizeChangeSpeed*0.05f * 1.4f;
                 ActivateParticles();
                 float newScale = Mathf.Max(currentScale.x - scaleFactor * sizeChangeSpeed*0.05f, minSize);
                 currentScale = new Vector3(newScale, newScale, newScale);
@@ -55,6 +57,7 @@ public class ZoomEffect : MonoBehaviour
             {
                 UpdateTallPotionUI(0.5f);
                 jumpMultiplier -= 0.01f;
+                ground._groundCheckSize.x += scaleFactor * sizeChangeSpeed*0.05f * 1.4f;
                 ActivateParticles();
                 Debug.Log(Time.deltaTime);
                 float newScale = currentScale.x + scaleFactor * sizeChangeSpeed*0.05f;

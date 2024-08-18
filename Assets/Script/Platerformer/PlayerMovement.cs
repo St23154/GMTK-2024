@@ -19,7 +19,7 @@ public class Playermovement : MonoBehaviour
      public GameObject objectToHide;
      public GameObject objectToShow;
 
-    [SerializeField] private Vector2 _groundCheckSize = new Vector2(0.49f, 0.03f);
+    [SerializeField] public Vector2 _groundCheckSize;
 
 
     [SerializeField] private Rigidbody2D rb;
@@ -36,6 +36,7 @@ public class Playermovement : MonoBehaviour
 
     void Start()
     {
+        _groundCheckSize = new Vector2(1.4f, 0.03f);
         jumpingPower = 11f;
         zoom = GetComponent<ZoomEffect>();
         myAnimator = GetComponent<Animator>();
