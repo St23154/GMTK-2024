@@ -3,7 +3,7 @@ using UnityEngine;
 public class FissureInteract : MonoBehaviour
 {
     public GameObject keyBind;
-    public ZoomEffect zoomScript;
+    public ZoomEffectTopDown zoomScript;
     private bool playerHere = false;
 
     private void OnTriggerEnter2D(Collider2D other)

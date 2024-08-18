@@ -5,7 +5,7 @@ public class PaperStoryInteract : MonoBehaviour
 
     public GameObject keyBind;
     public GameObject paper;
-    public ZoomEffect zoomScript;
+    public ZoomEffectTopDown zoomScript;
     public GameObject fissure;
     private bool playerHere = false;
 

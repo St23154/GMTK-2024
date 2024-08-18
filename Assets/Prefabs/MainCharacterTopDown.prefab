@@ -4842,8 +4842,8 @@ GameObject:
   - component: {fileID: 4435808660281724177}
   - component: {fileID: 5013751385269628947}
   - component: {fileID: 7139991467509717023}
-  - component: {fileID: 8314271346115394478}
   - component: {fileID: 8637820346533280361}
+  - component: {fileID: 7422951569734748631}
   m_Layer: 0
   m_Name: MainCharacterTopDown
   m_TagString: Player
@@ -4860,7 +4860,7 @@ Transform:
   m_GameObject: {fileID: 5124969844152268439}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.436531, y: -1.2852573, z: 0}
+  m_LocalPosition: {x: -7.5189586, y: -1.1322505, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4908,7 +4908,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 37e5d854e11349a4586ea0af7a754984, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4959,27 +4959,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &8314271346115394478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5124969844152268439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d71c61c0d89f144e995b60cd21cfcbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mini: 0
-  isAnimating: 0
-  speed: 2
-  posDown: 0
-  canMove: 1
-  myCameraAnimator: {fileID: 0}
-  targetScale: {x: 0.01, y: 0.01}
-  particles:
-  - {fileID: 1536205577962011343}
 --- !u!61 &8637820346533280361
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5012,16 +4991,37 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.012383699, y: -0.36655378}
+  m_Offset: {x: -0.016149282, y: -0.9322388}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.8828125}
+    oldSize: {x: 2.1333334, y: 2.1333334}
     newSize: {x: 1, y: 0.8828125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.50961065, y: 0.14970493}
+  m_Size: {x: 0.78122663, y: 0.2458148}
   m_EdgeRadius: 0
+--- !u!114 &7422951569734748631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5124969844152268439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a70dc4e6354974f9464af82a2a1b4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mini: 0
+  isAnimating: 0
+  speed: 2
+  posDown: 1
+  canMove: 1
+  myCameraAnimator: {fileID: 0}
+  targetScale: {x: 0.1, y: 0.1}
+  particles:
+  - {fileID: 1536205577962011343}

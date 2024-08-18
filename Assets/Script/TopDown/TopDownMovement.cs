@@ -5,14 +5,14 @@ public class PlayerCtrl : MonoBehaviour
 {
     public float movSpeed;
     private float realSpeed;
-    private ZoomEffect zoomScript;
+    private ZoomEffectTopDown zoomScript;
     Rigidbody2D rb;
     Vector2 movement;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        zoomScript = GetComponent<ZoomEffect>();
+        zoomScript = GetComponent<ZoomEffectTopDown>();
     }
 
     void FixedUpdate()
