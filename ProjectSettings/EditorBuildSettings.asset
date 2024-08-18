@@ -18,9 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/FnishScenes/TopDownMainScene.unity
     guid: ac1e7d6ae05da5d40bff343b37452107
   - enabled: 0
-    path: Assets/Scenes/Scene_Mini_Dossier 1.unity
+    path: Assets/Scenes/FnishScenes/Scene_Mini_Dossier 1.unity
     guid: e21ec53410c982d4790f5751322ef9de
   - enabled: 0
-    path: Assets/Scenes/Scene_Dossier.unity
+    path: Assets/Scenes/FnishScenes/Scene_Dossier.unity
     guid: 3289a6bd52554f741ab96ae2aceb0afd
   m_configObjects: {}
