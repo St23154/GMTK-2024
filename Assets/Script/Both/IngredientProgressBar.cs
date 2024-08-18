@@ -21,11 +21,8 @@ public class IngredientProgressBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (IngredientManager.CollectedIngredients != LastSeenInt) {
-            UpdateBottle();
-            LastSeenInt = IngredientManager.CollectedIngredients;
-        }
-        
+        UpdateBottle();
+        LastSeenInt = IngredientManager.CollectedIngredients;
     }
 
     void UpdateBottle()
