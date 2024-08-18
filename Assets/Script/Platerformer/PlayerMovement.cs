@@ -97,6 +97,16 @@ public class Playermovement : MonoBehaviour
         Flip(); 
     }
 
+ private void OnDrawGizmos()
+    {
+
+            // Set the color of the gizmo
+            Gizmos.color = Color.red;
+
+            // Draw a wireframe cube at the groundCheck position with the specified size
+            Gizmos.DrawWireCube(groundCheck.position, _groundCheckSize);
+        }
+    
 
 
     private void FixedUpdate()
