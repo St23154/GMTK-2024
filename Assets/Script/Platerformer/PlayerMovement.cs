@@ -187,6 +187,7 @@ public class Playermovement : MonoBehaviour
 
     public void Die()
     {
+        AudioManager.instance.Play("Death");
         myAnimator.SetTrigger("Die");
         zoom.canMove = false;
         transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z);
