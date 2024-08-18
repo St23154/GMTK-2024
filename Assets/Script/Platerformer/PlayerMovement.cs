@@ -191,9 +191,11 @@ public class Playermovement : MonoBehaviour
         zoom.canMove = false;
         transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z);
         Rigidbody2D rb = gameObject.GetComponent<Rigidbody2D>();
+        Collider2D cl = gameObject.GetComponent<Collider2D>();
+        cl.isTrigger = true;
         rb.velocity = Vector2.zero;
-        rb.constraints = RigidbodyConstraints2D.FreezePosition;
-        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        rb.constraints = RigidbodyConstraints2D.FreezePosition | RigidbodyConstraints2D.FreezeRotation;
+
     }
 
     IEnumerator reloadScene()
