@@ -7,10 +7,12 @@ public class PlayerCtrl : MonoBehaviour
     private float realSpeed;
     private ZoomEffectTopDown zoomScript;
     Rigidbody2D rb;
+    private Animator myAnimator;
     Vector2 movement;
 
     void Start()
     {
+        myAnimator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         zoomScript = GetComponent<ZoomEffectTopDown>();
     }
@@ -28,6 +30,9 @@ public class PlayerCtrl : MonoBehaviour
             
             float moveX = Input.GetAxis("Horizontal");
             float moveY = Input.GetAxis("Vertical");
+
+            myAnimator.SetFloat("y", moveY);
+            myAnimator.SetFloat("x", moveX);
             
             movement = new Vector2(moveX, moveY);
             
