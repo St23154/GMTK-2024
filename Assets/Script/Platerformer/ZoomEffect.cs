@@ -36,11 +36,11 @@ public class ZoomEffect : MonoBehaviour
         {
             if (currentScale.x > minSize && potionSmall > 0)
             {
-                UpdateSmallPotionUI(1);
+                UpdateSmallPotionUI(0.5f);
                 jumpMultiplier += 0.01f;
                 ActivateParticles();
                 Debug.Log(Time.deltaTime);
-                float newScale = Mathf.Max(currentScale.x - scaleFactor * sizeChangeSpeed, minSize);
+                float newScale = Mathf.Max(currentScale.x - scaleFactor * sizeChangeSpeed*0.05f, minSize);
                 Debug.Log(currentScale);
                 currentScale = new Vector3(newScale, newScale, newScale);
                 Debug.Log(currentScale);
@@ -56,11 +56,11 @@ public class ZoomEffect : MonoBehaviour
         {
             if (currentScale.x < maxSize && potionTall>0)
             {
-                UpdateTallPotionUI(1);
+                UpdateTallPotionUI(0.5f);
                 jumpMultiplier -= 0.01f;
                 ActivateParticles();
                 Debug.Log(Time.deltaTime);
-                float newScale = currentScale.x + scaleFactor * sizeChangeSpeed;
+                float newScale = currentScale.x + scaleFactor * sizeChangeSpeed*0.05f;
                 currentScale = new Vector3(newScale, newScale, newScale);
                 transform.localScale = currentScale;
             }
