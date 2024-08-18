@@ -12,6 +12,7 @@ TagManager:
   - document
   - troudstuyaux
   - sortie_tuyaux
+  - toile
   layers:
   - Default
   - TransparentFX
