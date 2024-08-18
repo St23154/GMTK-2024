@@ -40,7 +40,7 @@ public class ZoomEffect : MonoBehaviour
                 jumpMultiplier += 0.01f;
                 ActivateParticles();
                 Debug.Log(Time.deltaTime);
-                float newScale = Mathf.Max(currentScale.x - scaleFactor * sizeChangeSpeed*Time.deltaTime, minSize);
+                float newScale = Mathf.Max(currentScale.x - scaleFactor * sizeChangeSpeed, minSize);
                 Debug.Log(currentScale);
                 currentScale = new Vector3(newScale, newScale, newScale);
                 Debug.Log(currentScale);
@@ -60,7 +60,7 @@ public class ZoomEffect : MonoBehaviour
                 jumpMultiplier -= 0.01f;
                 ActivateParticles();
                 Debug.Log(Time.deltaTime);
-                float newScale = currentScale.x + scaleFactor * sizeChangeSpeed * Time.deltaTime;
+                float newScale = currentScale.x + scaleFactor * sizeChangeSpeed;
                 currentScale = new Vector3(newScale, newScale, newScale);
                 transform.localScale = currentScale;
             }
