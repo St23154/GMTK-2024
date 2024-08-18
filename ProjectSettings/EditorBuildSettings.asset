@@ -9,12 +9,9 @@ EditorBuildSettings:
     path: Assets/Script/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/FnishScenes/StoryBeginning.unity
-    guid: 7b7ec062af43454439e4f8cd86b1fc7f
+    path: Assets/Scenes/Scene_Mini_Dossier 1.unity
+    guid: e21ec53410c982d4790f5751322ef9de
   - enabled: 1
-    path: Assets/Scenes/FnishScenes/TheRatHoll.unity
-    guid: 61de0f4f7e8c3934eadec0e87125d38b
-  - enabled: 1
-    path: Assets/Scenes/FnishScenes/TopDownMainScene.unity
-    guid: ac1e7d6ae05da5d40bff343b37452107
+    path: Assets/Scenes/Scene_Dossier.unity
+    guid: 3289a6bd52554f741ab96ae2aceb0afd
   m_configObjects: {}

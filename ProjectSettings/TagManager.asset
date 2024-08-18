@@ -9,6 +9,9 @@ TagManager:
   - Ingredient
   - tallPotion
   - AnimationManager
+  - document
+  - troudstuyaux
+  - sortie_tuyaux
   layers:
   - Default
   - TransparentFX
