@@ -26,6 +26,6 @@ public class MainMenu : MonoBehaviour
     }
 
     public void Back(){
-    SceneManager.LoadSceneAsync("Main_Menu");
+    SceneManager.LoadScene("MainMenu");
 }
 }

@@ -9,10 +9,10 @@ public class ZoomEffect : MonoBehaviour
     public float scaleFactor = 0.001f;
     public float minSize = 0.1f;
     public float maxSize = 3.0f;
-    public float potionTall = 100f;
-    public float potionSmall = 100f;
-    public float maxTall;
-    public float maxSmall;
+    public float potionTall = 0f;
+    public float potionSmall = 0f;
+    public float maxTall = 100f;
+    public float maxSmall = 100f;
     public Image TallBarFill;
     public Image SmallBarFill;
     public bool mini = false;
@@ -26,8 +26,10 @@ public class ZoomEffect : MonoBehaviour
 
     void Start()
     {
-        maxTall = potionTall;
-        maxSmall = potionSmall;
+        maxTall = 100f;
+        maxSmall = 100f;
+        UpdateTallPotionUI(100);
+        UpdateSmallPotionUI(100);
     }
 
     void FixedUpdate()
@@ -108,6 +110,7 @@ public class ZoomEffect : MonoBehaviour
     {
         potionTall -= amountToDecrease;
         if(potionTall < 0){ potionTall = 0; }
+        if(potionTall > maxTall){ potionTall = maxTall; }
         if(TallBarFill != null){ TallBarFill.fillAmount = potionTall/maxTall; }
     }
 
@@ -115,6 +118,7 @@ public class ZoomEffect : MonoBehaviour
     {
         potionSmall -= amountToDecrease;
         if(potionSmall < 0){ potionSmall = 0; }
+        if(potionTall > maxSmall){ potionTall = maxSmall; }
         if(SmallBarFill != null){ SmallBarFill.fillAmount = potionSmall/maxSmall; }     
     }
 
